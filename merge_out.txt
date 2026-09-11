@@ -1,0 +1,68 @@
+﻿Found 122 TS segments
+
+=== Segment 1.ts (560804 bytes) ===
+  Pkt 0: PID=0x0011 TSC=0 PUSI=1 first16=0042f0170001c10000ff01ff0001fc80
+  Pkt 1: PID=0x0000 TSC=0 PUSI=1 first16=0000b00d0001c100000001f0002ab104
+  Pkt 2: PID=0x1000 TSC=0 PUSI=1 first16=0002b01d0001c10000e100f00024e100
+  TSC distribution: {0: 20, 2: 0, 3: 0, 1: 0}
+  *** ALL PACKETS UNENCRYPTED (TSC=0) ***
+
+=== Segment 2.ts (740720 bytes) ===
+  Pkt 0: PID=0x0011 TSC=0 PUSI=1 first16=0042f0170001c10000ff01ff0001fc80
+  Pkt 1: PID=0x0000 TSC=0 PUSI=1 first16=0000b00d0001c100000001f0002ab104
+  Pkt 2: PID=0x1000 TSC=0 PUSI=1 first16=0002b01d0001c10000e100f00024e100
+  TSC distribution: {0: 20, 2: 0, 3: 0, 1: 0}
+  *** ALL PACKETS UNENCRYPTED (TSC=0) ***
+
+=== Segment 3.ts (3044284 bytes) ===
+  Pkt 0: PID=0x0011 TSC=0 PUSI=1 first16=0042f0170001c10000ff01ff0001fc80
+  Pkt 1: PID=0x0000 TSC=0 PUSI=1 first16=0000b00d0001c100000001f0002ab104
+  Pkt 2: PID=0x1000 TSC=0 PUSI=1 first16=0002b01d0001c10000e100f00024e100
+  TSC distribution: {0: 20, 2: 0, 3: 0, 1: 0}
+  *** ALL PACKETS UNENCRYPTED (TSC=0) ***
+
+=== Segment 122.ts (1217112 bytes) ===
+  Pkt 0: PID=0x0011 TSC=0 PUSI=1 first16=0042f0170001c10000ff01ff0001fc80
+  Pkt 1: PID=0x0000 TSC=0 PUSI=1 first16=0000b00d0001c100000001f0002ab104
+  Pkt 2: PID=0x1000 TSC=0 PUSI=1 first16=0002b01d0001c10000e100f00024e100
+  TSC distribution: {0: 20, 2: 0, 3: 0, 1: 0}
+  *** ALL PACKETS UNENCRYPTED (TSC=0) ***
+
+
+=== Extracting all segments and merging ===
+Running: C:\ffmpeg\bin\ffmpeg.exe -y -f concat -safe 0 -i C:\Users\Administrator\iCloudDrive\Traework云仓库\6aa2615da516df5d0a1843ba\probe_out\concat.txt -c copy C:\Users\Administrator\iCloudDrive\Traework云仓库\6aa2615da516df5d0a1843ba\probe_out\output_test.mp4
+python.exe : Traceback (most recent call last):
+At line:15 char:2232
++ ... pgrep\bin'; & "C:\Users\Administrator\.workbuddy\binaries\python\vers ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Traceback (most recent call last)::String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  File "C:\Users\Administrator\iCloudDrive\Traework云仓库\6aa2615da516df5d0a1843ba\check_tsc_and_merge.py", line 78, in <m
+odule>
+    result = subprocess.run(cmd, capture_output=True, text=True, timeout=60)
+  File "C:\Users\Administrator\.workbuddy\binaries\python\versions\3.13.12\Lib\subprocess.py", line 554, in run
+    with Popen(*popenargs, **kwargs) as process:
+         ~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\.workbuddy\binaries\python\versions\3.13.12\Lib\subprocess.py", line 1039, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                        pass_fds, cwd, env,
+                        ^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+                        gid, gids, uid, umask,
+                        ^^^^^^^^^^^^^^^^^^^^^^
+                        start_new_session, process_group)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\.workbuddy\binaries\python\versions\3.13.12\Lib\subprocess.py", line 1554, in _execute_c
+hild
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+                       ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+                             # no special security
+                             ^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+                             cwd,
+                             ^^^^
+                             startupinfo)
+                             ^^^^^^^^^^^^
+FileNotFoundError: [WinError 2] 系统找不到指定的文件。

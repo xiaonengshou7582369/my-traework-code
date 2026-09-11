@@ -1,0 +1,51 @@
+# ===== YKV2MP4 Toolkit .gitignore =====
+
+# --- 构建中间产物 ---
+build/
+*.spec
+PyInstaller/
+
+# --- 调试/探测输出 ---
+probe_out/
+*.log
+__pycache__/
+*.pyc
+*.pyo
+
+# --- 参考资料压缩包解压内容（非原创资产） ---
+refs/
+
+# --- 非资产二进制（优酷应用自带） ---
+node.exe
+
+# --- 重复的便携包（根目录已有） ---
+我的文件/
+
+# --- iCloud/Trae 同步临时文件 ---
+*.icloud
+.trae/
+
+# --- 临时/调试脚本（开发过程产物） ---
+test_*.py
+test_*.js
+find_*.py
+find_*.js
+extract_*.py
+search_*.py
+inspect_*.js
+implement_*.py
+run_drm_*.js
+check_*.py
+list_*.py
+make_zip.py
+get_git_url.py
+download_install_git.py
+
+# --- 系统文件 ---
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# --- IDE ---
+.vscode/
+.idea/

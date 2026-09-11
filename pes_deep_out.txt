@@ -1,0 +1,34 @@
+﻿Segment 1.ts: 560804 bytes, 2983 packets
+
+Video PES total: 630 bytes
+Audio PES total: 2470 bytes
+
+=== Video PES first 100 bytes ===
+04abd96cae68a887e89ab8beacabb9404fa48f7aeb2ec1e5614d07dd36d5da9abcae9f25573008093cf7ceac9aa1e67b840d91cc1052d98a8dd79d9bd55697c13cc92d995e7bef6080dedeb507e99610f2e822f8e88144267db83ff7a4ca2df578d7f3ec
+
+=== Looking for NAL start codes (00 00 00 01 or 00 00 01) ===
+  NO NAL start codes found - payload IS encrypted/obfuscated
+  Byte distribution (first 1000B): 237 unique bytes
+  Most common: [(164, 7), (16, 7), (120, 7), (104, 6), (232, 6)]
+  Entropy: 5.26 bits/byte (8.0 = random)
+
+=== Audio PES first 100 bytes ===
+8314b3a8cae1dee746725638720b5d07b35f6b2bca2ba0c6d0f1f491bccfd4e57b2f1b0b83511cc2915bb934df3cee0a5c2cf05845bb527c493178a140a9bfbe332eb77ad46084df0905d02514c11be88fe08307e5996a55f8acfe8c0f8f0e4ea96ff8be
+  No ADTS header - audio might be encrypted
+  Entropy: 7.81 bits/byte
+
+=== First video PES packet (raw) ===
+Packet 3: PUSI=1
+  Full packet hex: 474100300750000155047e00000001e0000080c00a31000fb0c111000f404193f7a5941fd8bcbdee238d75e38060296a9defc2480b1da9f4900aeb04a3b8bf8afa835230a5e11bdaf2d17e1cadaba3205374f6dc67e8e43924c7656150527eaff9268634ef7be28432213c82fc04a8a32c69ae51f14bad4ed3410d603fce466733d8fa7a4d30c4776025242b8bcb98512e83e768a07f71140c714f4ec71bf2df9867a4ea7b76344b02eeccccad9bfeacfbbca850dd9ded9f0434bf0d
+  Adaptation field: 7 bytes
+  PES data (176B): 000001e0000080c00a31000fb0c111000f404193f7a5941fd8bcbdee238d75e38060296a9defc2480b1da9f4900aeb04a3b8bf8afa835230a5e11bdaf2d17e1cadaba3205374f6dc67e8e43924c7656150527eaff9268634ef7be28432213c82fc04a8a32c69ae51f14bad4ed3410d603fce466733d8fa7a4d30c4776025242b8bcb98512e83e768a07f71140c714f4ec71bf2df9867a4ea7b76344b02eeccccad9bfeacfbbca850dd9ded9f0434bf0d
+  Stream ID: 0xe0
+  PES packet length: 0
+  Flags: 80 c0
+  Header len: 10
+  Header bytes: 31000fb0c111000f4041
+  Payload (157B): 93f7a5941fd8bcbdee238d75e38060296a9defc2480b1da9f4900aeb04a3b8bf8afa835230a5e11bdaf2d17e1cadaba3205374f6dc67e8e43924c7656150527eaff9268634ef7be28432213c82fc04a8a32c69ae51f14bad4ed3410d603fce466733d8fa7a4d30c4776025242b8bcb98512e83e768a07f71140c714f4ec71bf2df9867a4ea7b76344b02eeccccad9bfeacfbbca850dd9ded9f0434bf0d
+
+=== Check for length-prefixed NAL units ===
+First 4 bytes as big-endian: 78371180 (0x04abd96c)
+  Not a valid length prefix

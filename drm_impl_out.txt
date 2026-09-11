@@ -1,0 +1,35 @@
+﻿r (16B): 1269535aa7e380d13113aa278168dfeb
+encryptR_server (16B): ac8b0105c62368df3c1678f4d0f94b19
+key_2 (16B): bb31954222d7d1c5755b8560dc9e12d1
+copyright_key (32B): d16649a5d1249ecb909783a8591953592b9f7d78f5325ad2af2eeb8fb33ebd07
+final_key (32B): a194e7fdad66fd2c4d3a0d08b78ab9c248bc0de72ecbf00728c601959ed89f05
+
+=== Testing final_key as AES-256-ECB ===
+PES payload (157B): 93f7a5941fd8bcbdee238d75e38060296a9defc2480b1da9f4900aeb04a3b8bf
+
+AES-256-ECB decrypt (first 64B): e1df9204919dd8dbc9a373fda89618a64f7bf6cf250a2631508d1441d61c62adb01f7e6b4a4106fa5ae3bc8874795b9289d4faf60c080bbb7f6c8ce0b16a69eb
+NAL start code 4-byte: False
+NAL start code 3-byte: False
+
+=== Testing key_2 as AES-128-ECB ===
+AES-128-ECB decrypt (first 64B): 73c936af6b157d5f37487fe5582c5048c5e2c3a3ec6e0a5ebb04d258a5d8c0242b95e31fe584483469c60d44291afe36a5516ed785a25ced21707cde490e7305
+NAL start code: False
+
+=== Testing final_key[:16] as AES-128-ECB ===
+AES-128-ECB decrypt (first 64B): 8c4d76121ab37361160dc4c483ccf649187b5e7ef4fb668006e4773af8fead4528b559b0eb82c51dde7ca8d41c3ee4fa2af7a27702e7b36f795e4cd84f3dfe57
+NAL start code: False
+
+=== Testing r as AES-128-ECB ===
+AES-128-ECB decrypt (first 64B): 119fc409f8b263aad9c381294ccecef78dbb09143b2670e702f78155890de4d850b7f7e49ed7e33c46263cdd52c079ead4eacfe87d9e4011d249205aaa295031
+NAL start code: False
+
+=== Testing AES-256-CBC with zero IV ===
+AES-256-CBC decrypt (first 64B): e1df9204919dd8dbc9a373fda89618a6dc8c535b3ad29a8cbeae9934359c0284da8291a9024a1b53ae73b66370dae32d032e79a43cadeaa0a59e5d9eadc7c248
+NAL start code: False
+
+=== Testing final_key as base64 string ===
+Base64 decode failed: Incorrect padding
+
+=== Testing key_2 as key, copyright_key[:16] as IV (CBC) ===
+AES-128-CBC decrypt: a2af7f0aba31e394a7dffc4d0135031156156637f3b6b6e355275f2d4658a00d41080cddad8f559d9d5607af2db946892fabed85b507bdf6fb82ada055a3d8a6
+NAL start code: False

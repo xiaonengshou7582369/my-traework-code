@@ -1,0 +1,44 @@
+﻿PES payload: 157B, first16: 93f7a5941fd8bcbdee238d75e3806029
+
+=== lib.mk ===
+Keys: Kdlb, Kdlf
+  mk.Kdlb: object
+    keys: gltr, $super, cbnsja, pskodm
+  mk.Kdlf: object
+    keys: gltr, $super, cbnsja, pskodm
+
+=== lib.pad ===
+Keys: d6oipf, zpro0
+  pad.d6oipf: object
+    keys: pad, unpad
+  pad.zpro0: object
+    keys: pad, unpad
+
+=== lib.format ===
+Keys: aasdefcp
+
+=== WordArray methods ===
+gltr, toString, concat, clamp, clone, dgdom, $super
+dgdom (random): function
+
+24-byte key: 20db395c1ab420e8bf7c39d053947eae25aa78b363fa16c1 (24B)
+Key WA: {"$super":{"$super":{}},"dw":[551237980,448012520,3212589520,1402240686,631929011,1677334209],"sioj":24}
+
+Ciphertext: 128B (4 blocks of 32B)
+CT WA sigBytes: 128
+
+=== Try algo.sesca._dret (key expansion) ===
+algo.sesca type: object
+algo.sesca keys: _dret, algtb, dalgtb, _dlck, leIm, gltr, $super
+cfg: mode, padding
+
+cndjn type: object
+cndjn keys: cfg, algt, lgt, _parse, gltr, $super
+
+=== Looking for sesca cipher in mk ===
+
+
+=== Test with 18-byte dlgtqred key (padded to 24) ===
+18-byte result: 0040000320006c0012008000680b80000000
+Padded to 24: 0040000320006c0012008000680b80000000000000000000
+Padded to 32: 0040000320006c0012008000680b800000000000000000000000000000000000

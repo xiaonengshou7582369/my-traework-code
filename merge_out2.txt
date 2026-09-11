@@ -1,0 +1,64 @@
+﻿Found 122 TS segments
+
+=== Segment 1.ts (560804 bytes) ===
+  Pkt 0: PID=0x0011 TSC=0 PUSI=1 first16=0042f0170001c10000ff01ff0001fc80
+  Pkt 1: PID=0x0000 TSC=0 PUSI=1 first16=0000b00d0001c100000001f0002ab104
+  Pkt 2: PID=0x1000 TSC=0 PUSI=1 first16=0002b01d0001c10000e100f00024e100
+  TSC distribution: {0: 20, 2: 0, 3: 0, 1: 0}
+  *** ALL PACKETS UNENCRYPTED (TSC=0) ***
+
+=== Segment 2.ts (740720 bytes) ===
+  Pkt 0: PID=0x0011 TSC=0 PUSI=1 first16=0042f0170001c10000ff01ff0001fc80
+  Pkt 1: PID=0x0000 TSC=0 PUSI=1 first16=0000b00d0001c100000001f0002ab104
+  Pkt 2: PID=0x1000 TSC=0 PUSI=1 first16=0002b01d0001c10000e100f00024e100
+  TSC distribution: {0: 20, 2: 0, 3: 0, 1: 0}
+  *** ALL PACKETS UNENCRYPTED (TSC=0) ***
+
+=== Segment 3.ts (3044284 bytes) ===
+  Pkt 0: PID=0x0011 TSC=0 PUSI=1 first16=0042f0170001c10000ff01ff0001fc80
+  Pkt 1: PID=0x0000 TSC=0 PUSI=1 first16=0000b00d0001c100000001f0002ab104
+  Pkt 2: PID=0x1000 TSC=0 PUSI=1 first16=0002b01d0001c10000e100f00024e100
+  TSC distribution: {0: 20, 2: 0, 3: 0, 1: 0}
+  *** ALL PACKETS UNENCRYPTED (TSC=0) ***
+
+=== Segment 122.ts (1217112 bytes) ===
+  Pkt 0: PID=0x0011 TSC=0 PUSI=1 first16=0042f0170001c10000ff01ff0001fc80
+  Pkt 1: PID=0x0000 TSC=0 PUSI=1 first16=0000b00d0001c100000001f0002ab104
+  Pkt 2: PID=0x1000 TSC=0 PUSI=1 first16=0002b01d0001c10000e100f00024e100
+  TSC distribution: {0: 20, 2: 0, 3: 0, 1: 0}
+  *** ALL PACKETS UNENCRYPTED (TSC=0) ***
+
+
+=== Extracting all segments and merging ===
+Running: C:\c\Users\Administrator\AppData\Local\Temp\qqlive_zip_test_81\ffmpeg.exe -y -f concat -safe 0 -i C:\Users\Administrator\iCloudDrive\Traework云仓库\6aa2615da516df5d0a1843ba\probe_out\concat.txt -c copy C:\Users\Administrator\iCloudDrive\Traework云仓库\6aa2615da516df5d0a1843ba\probe_out\output_test.mp4
+Exit code: 3199971767
+  [aac @ 0000027d221c3000] Reserved bit set.
+  [aac @ 0000027d221c3000] Number of bands (13) exceeds limit (11).
+  [aac @ 0000027d221c3000] Number of bands (32) exceeds limit (14).
+  [aac @ 0000027d221c3000] channel element 2.3 is not allocated
+  [aac @ 0000027d221c3000] Sample rate index in program config element does not match the sample rate index configured by the container.
+  [aac @ 0000027d221c3000] Number of bands (29) exceeds limit (18).
+  [aac @ 0000027d221c3000] Number of scalefactor bands in group (51) exceeds limit (40).
+  [aac @ 0000027d221c3000] Sample rate index in program config element does not match the sample rate index configured by the container.
+  [aac @ 0000027d221c3000] Reserved bit set.
+  [aac @ 0000027d221c3000] Number of scalefactor bands in group (58) exceeds limit (40).
+  [aac @ 0000027d221c3000] channel element 3.0 is not allocated
+  [aac @ 0000027d221c3000] Number of bands (17) exceeds limit (15).
+  [aac @ 0000027d221c3000] Reserved bit set.
+  [aac @ 0000027d221c3000] Prediction is not allowed in AAC-LC.
+  [aac @ 0000027d221c3000] Reserved bit set.
+  [aac @ 0000027d221c3000] Number of scalefactor bands in group (48) exceeds limit (40).
+  [aac @ 0000027d221c3000] channel element 2.3 is not allocated
+  [aac @ 0000027d221c3000] Sample rate index in program config element does not match the sample rate index configured by the container.
+  [aac @ 0000027d221c3000] Reserved bit set.
+  [aac @ 0000027d221c3000] Number of scalefactor bands in group (62) exceeds limit (40).
+  [aac @ 0000027d221c3000] channel element 1.7 is not allocated
+  [aac @ 0000027d221c3000] Reserved bit set.
+  [aac @ 0000027d221c3000] Number of scalefactor bands in group (41) exceeds limit (40).
+  [aac @ 0000027d221c3000] channel element 2.11 is not allocated
+  [hevc @ 0000027d221c2580] No start code is found.
+  [extract_extradata @ 0000027d22168940] No start code is found.
+  [concat @ 0000027d221811c0] Impossible to open 'C:\Users\Administrator\iCloudDrive\Traework云仓库\6aa2615da516df5d0a1843ba\probe_out\seg_0000.ts'
+  [in#0 @ 0000027d22189b40] Error opening input: Invalid data found when processing input
+  Error opening input file C:\Users\Administrator\iCloudDrive\Traework云仓库\6aa2615da516df5d0a1843ba\probe_out\concat.txt.
+  Error opening input files: Invalid data found when processing input

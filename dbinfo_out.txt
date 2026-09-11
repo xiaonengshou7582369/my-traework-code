@@ -1,0 +1,628 @@
+﻿=== dbInfo entry ===
+Keys: ['name', 'info']
+
+info keys: ['taskInfo', 'configInfo']
+
+Full info (42460 chars):
+{
+  "taskInfo": {
+    "id": "XNTk3MzA5NzgzMg==__guoyu",
+    "name": "第1集 所有妖怪都得死",
+    "coverImg": "http://m.ykimg.com/050C00006A753A9E140C6E144967DC50",
+    "speed": "0B/s",
+    "vipSpeed": "0B/s",
+    "vid": "XNTk3MzA5NzgzMg==",
+    "clarity": "高清",
+    "lang": "guoyu",
+    "progress": 0,
+    "size": 281172236,
+    "status": "DOWNLOADING",
+    "restTime": "",
+    "stage": 1,
+    "watchHistory": null,
+    "errorInfo": "",
+    "isLinkToDownloader": false,
+    "parentId": "adaec02f09f9469ab8d8",
+    "parentName": "沧元图",
+    "kuxPath": "",
+    "filePath": "D:/Youku Files/download沧元图//第1集 所有妖怪都得死-国语.ykv",
+    "videoName": "第1集 所有妖怪都得死-国语",
+    "password": "",
+    "mark": {
+      "markBgColour": "#FFDD9A",
+      "markType": "VIP",
+      "markWordColour": "#733306"
+    }
+  },
+  "configInfo": {
+    "vid": "XNTk3MzA5NzgzMg==",
+    "videoName": "第1集 所有妖怪都得死",
+    "showInfo": {
+      "showId": "adaec02f09f9469ab8d8",
+      "showName": "沧元图",
+      "showImg": "http://m.ykimg.com/050C00006A753A9E140C6E144967DC50",
+      "videoTitle": "第1集 所有妖怪都得死"
+    },
+    "options": [
+      {
+        "lang": "guoyu",
+        "videoQuality": 5
+      }
+    ],
+    "password": "",
+    "mark": {
+      "markBgColour": "#FFDD9A",
+      "markType": "VIP",
+      "markWordColour": "#733306"
+    },
+    "ups": {
+      "api": "mtop.youku.play.ups.appinfo.get",
+      "data": {
+        "cost": 0.034,
+        "data": {
+          "preview": {
+            "thumb_hd": [
+              "http://m.ykimg.com/0525000364997FD60000011AC2065757",
+              "http://m.ykimg.com/0525010364997FD60000011AC2065757",
+              "http://m.ykimg.com/0525020364997FD60000011AC2065757"
+            ],
+            "thumb": [
+              "http://m.ykimg.com/0525000364997FD60000011AC2065757?x-oss-process=image/resize,m_fill,limit_0,h_720,w_1280/format,jpg",
+              "http://m.ykimg.com/0525010364997FD60000011AC2065757?x-oss-process=image/resize,m_fill,limit_0,h_720,w_1280/format,jpg",
+              "http://m.ykimg.com/0525020364997FD60000011AC2065757?x-oss-process=image/resize,m_fill,limit_0,h_720,w_1280/format,jpg"
+            ],
+            "timespan": "6000"
+          },
+          "clientAbility": {
+            "fps120": 0,
+            "audio_51": 0,
+            "dolby_around": 0,
+            "dtsc": 0,
+            "zx_list": 2,
+            "dtsx": 0,
+            "dolby_vision": 0,
+            "n10bit": 0,
+            "z1080": 0,
+            "hdr_vivid": 0,
+            "zreal_imax": 0,
+            "dts": 0,
+            "n4k": 0,
+            "imax": 0,
+            "dolby_atmos": 0,
+            "z8k": 0,
+            "dolby": 0,
+            "z10bit": 0,
+            "z4k": 0,
+            "fps60": 0,
+            "z2k": 0,
+            "zreal4k": 0,
+            "h265": 1,
+            "h266": 0,
+            "hdr10": 0
+          },
+          "controller": {
+            "has_rare_character": false,
+            "dynamic_drm": false,
+            "screen_projection_limited": false,
+            "yi_plus": "false",
+            "download_disable_tudou": false,
+            "stream_config": true,
+            "new_core": true,
+            "continuous": false,
+            "tipSwitch": false,
+            "download_status": "[\"vip_allowed\"]",
+            "share_disable": false,
+            "is_phone_stream": "0",
+            "play_mode": 2,
+            "like_disabled": false,
+            "baipai_source": "",
+            "pay_info_ext": "{\"stage\":\"1\",\"can_play\":true,\"is_vip\":true,\"idens\":[100006],\"seq\":\"1\",\"sub_stage\":0}",
+            "comment_disable": false,
+            "cannot_quick_cache": false,
+            "download_disable": false,
+            "app_disable": false,
+            "post_process": false,
+            "buy_guide": true,
+            "audioEffectAutoSelect": false,
+            "circle": false,
+            "stream_mode": 1,
+            "video_capture": true
+          },
+          "watermark": [
+            {
+              "displayDTOS": [
+                {
+                  "duration": 0,
+                  "posX": 24,
+                  "posY": 24,
+                  "start": 0,
+                  "width": 57,
+                  "height": 20
+                }
+              ],
+              "rsUrl": "https://ykimg.alicdn.com/product/image/2026-06-18/3ca14830773ad19a990bf6f022ff8861.png",
+              "alpha": 1,
+              "watermarkImgListDTOS": [],
+              "type": 0,
+              "refWnd": 1,
+              "displayMode": 1,
+              "rsType": 0,
+              "autoScale": 0,
+              "refCoord": 1
+            },
+            {
+              "displayDTOS": [
+                {
+                  "duration": 0,
+                  "posX": 20,
+                  "posY": 20,
+                  "start": 0,
+                  "width": 39,
+                  "height": 14
+                }
+              ],
+              "rsUrl": "https://ykimg.alicdn.com/product/image/2026-06-18/b0993946307b3b53533e046cc22df740.png",
+              "alpha": 1,
+     
+
+... (37460 more chars)
+
+
+=== Searching for DRM-related keys ===
+
+  'R1Random' at pos 42417:
+  ...6cb1ffa928636bcaee491c2ebafccb7d\r\nx-powered-by: m.taobao.com\r\n",
+      "retType": 0
+    },
+    "R1Random": "EmlTWqfjgNExE6ongWjf6w=="
+  }
+}...
+
+  'encryptR' at pos 14906:
+  ...         "milliseconds_audio": 1415560,
+              "milliseconds_video": 1415560,
+              "encryptR_server": "rIsBBcYjaN88Fnj00PlLGQ==",
+              "segs": [
+                {
+                  "size": 74625660,
+                  "total_milliseconds_video": 1415560,
+                  "total_milliseconds_audio": 1415560,
+                  "fileid": "oss://yk-flv-sh/03000500006A55FD396C6...
+
+  'copyright' at pos 6099:
+  ...  "lastpoint": "0",
+            "langName": "default"
+          },
+          "show": {
+            "copyright": "1",
+            "show_thumburl": "http://m.ykimg.com/050B00006A753A9E140C6E144967DC50",
+            "show_vthumburl_huge": "http://m.ykimg.com/053400006A753A9A33752B1461E5715F",
+            "show_videotype": "正片",
+            "operation_state": "会员跟播中",
+            "show_vthumburl_big_j...
+
+  'drm' at pos 2911:
+  ...         },
+          "controller": {
+            "has_rare_character": false,
+            "dynamic_drm": false,
+            "screen_projection_limited": false,
+            "yi_plus": "false",
+            "download_disable_tudou": false,
+            "stream_config": true,
+            "new_core": true,
+            "continuous": false,
+            "tipSwitch": false,
+            "download_status": "...
+
+  'DRM' at pos 2911:
+  ...         },
+          "controller": {
+            "has_rare_character": false,
+            "dynamic_drm": false,
+            "screen_projection_limited": false,
+            "yi_plus": "false",
+            "download_disable_tudou": false,
+            "stream_config": true,
+            "new_core": true,
+            "continuous": false,
+            "tipSwitch": false,
+            "download_status": "...
+
+  'key' at pos 15697:
+  ...  "firstSliceSequenceNum": 0,
+                "hls_subtitle": "default",
+                "copyright_key": "0WZJpdEknsuQl4OoWRlTWSuffXj1MlrSry7rj7M+vQc=",
+                "subtitle_lang": "default",
+                "hls_size": 74625660,
+                "hls_oss_bucket": 2,
+                "startTime": "2.800000",
+                "firstSliceSize": 192136,
+                "hls_logo": "none",
+        ...
+
+  'Key' at pos 15697:
+  ...  "firstSliceSequenceNum": 0,
+                "hls_subtitle": "default",
+                "copyright_key": "0WZJpdEknsuQl4OoWRlTWSuffXj1MlrSry7rj7M+vQc=",
+                "subtitle_lang": "default",
+                "hls_size": 74625660,
+                "hls_oss_bucket": 2,
+                "startTime": "2.800000",
+                "firstSliceSize": 192136,
+                "hls_logo": "none",
+        ...
+
+
+=== Full m3u8 ===
+DIA-SEQUENCE:0
+#EXT-X-ALLOW-CACHE:YES
+#EXT-X-TARGETDURATION:11
+#EXTINF:10
+#EXT-X-PRIVINF:FILESIZE=560838
+D:/Youku Files/download/XNTk3MzA5NzgzMg==__guoyu/1.ts
+#EXTINF:13.56
+#EXT-X-PRIVINF:FILESIZE=740754
+D:/Youku Files/download/XNTk3MzA5NzgzMg==__guoyu/2.ts
+#EXTINF:12.88
+#EXT-X-PRIVINF:FILESIZE=3044318
+D:/Youku Files/download/XNTk3MzA5NzgzMg==__guoyu/3.ts
+#EXTINF:12.84
+#EXT-X-PRIVINF:FILESIZE=1919326
+D:/Youku Files/download/XNTk3MzA5NzgzMg==__guoyu/4.ts
+#EXTINF:10.4
+#EXT-X-PRIVINF:FILESIZE=2329918
+D:/Youku Files/download/XNTk3MzA5NzgzMg==__guoyu/5.ts
+#EXTINF:11.28
+#EXT-X-PRIVINF:FILESIZE=1610066
+D:/Youku Files/download/XNTk3MzA5NzgzMg==__guoyu/6.ts
+#EXTINF:11.88
+#EXT-X-PRIVINF:FILESIZE=2782998
+D:/Youku Files/download/XNTk3MzA5NzgzMg==__guoyu/7.ts
+#EXTINF:12
+#EXT-X-PRIVINF:FILESIZE=2839022
+D:/Youku Files/download/XNTk3MzA5NzgzMg==__guoyu/8.ts
+#EXTINF:14.16
+#EXT-X-PRIVINF:FILESIZE=2826990
+D:/Youku Files/download/XNTk3MzA5NzgzMg==__guoyu/9.ts
+#EXTINF:10
+#EXT-X-PRIVINF:FILESIZE=3894078
+D:/Youku Files/download/XNTk3MzA5NzgzMg==__guoyu/10.ts
+#EXTINF:10.52
+#EXT-X-PRIVINF:FILESIZE=3219534
+D:/Youku Files/download/XNTk3MzA5NzgzMg==__guoyu/11.ts
+#EXTINF:11.6
+#EXT-X-PRIVINF:FILESIZE=1009782
+D:/Youku Files/download/XNTk3MzA5NzgzMg==__guoyu/12.ts
+#EXTINF:11.4
+#EXT-X-PRIVINF:FILESIZE=1893946
+D:/Youku Files/download/XNTk3MzA5NzgzMg==__guoyu/13.ts
+#EXTINF:11.56
+#EXT-X-PRIVINF:FILESIZE=2693886
+D:/Youku Files/download/XNTk3MzA5NzgzMg==__guoyu/14.ts
+#EXTINF:13.52
+#EXT-X-PRIVINF:FILESIZE=1611006
+D:/Youku Files/download/XNTk3MzA5NzgzMg==__guoyu/15.ts
+#EXTINF:10.68
+#EXT-X-PRIVINF:FILESIZE=3148282
+D:/Youku Files/download/XNTk3MzA5NzgzMg==__guoyu/16.ts
+#EXTINF:10.68
+#EXT-X-PRIVINF:FILESIZE=2595562
+D:/Youku Files/download/XNTk3MzA5NzgzMg==__guoyu/17.ts
+#EXTINF:11.4
+#EXT-X-PRIVINF:FILESIZE=3276310
+D:/Youku Files/download/XNTk3MzA5NzgzMg==__guoyu/18.ts
+#EXTINF:10.2
+#EXT-X-PRIVINF:FILESIZE=2532958
+D:/Youku Files/download/XNTk3MzA5NzgzMg==__guoyu/19.ts
+#EXTINF:10.24
+#EXT-X-PRIVINF:FILESIZE=2469414
+D:/Youku Files/download/XNTk3MzA5NzgzMg==__guoyu/20.ts
+#EXTINF:9.96
+#EXT-X-PRIVINF:FILESIZE=1733206
+D:/Youku Files/download/XNTk3MzA5NzgzMg==__guoyu/21.ts
+#EXTINF:11.6
+#EXT-X-PRIVINF:FILESIZE=2790142
+D:/Youku Files/download/XNTk3MzA5NzgzMg==__guoyu/22.ts
+#EXTINF:11.36
+#EXT-X-PRIVINF:FILESIZE=1935870
+D:/Youku Files/download/XNTk3MzA5NzgzMg==__guoyu/23.ts
+#EXTINF:11.24
+#EXT-X-PRIVINF:FILESIZE=1902594
+D:/Youku Files/download/XNTk3MzA5NzgzMg==__guoyu/24.ts
+#EXTINF:10.04
+#EXT-X-PRIVINF:FILESIZE=1762158
+D:/Youku Files/download/XNTk3MzA5NzgzMg==__guoyu/25.ts
+#EXTINF:9.92
+#EXT-X-PRIVINF:FILESIZE=1750502
+D:/Youku Files/download/XNTk3MzA5NzgzMg==__guoyu/26.ts
+#EXTINF:10.8
+#EXT-X-PRIVINF:FILESIZE=1665526
+D:/Youku Files/download/XNTk3MzA5NzgzMg==__guoyu/27.ts
+#EXTINF:13.28
+#EXT-X-PRIVINF:FILESIZE=1680566
+D:/Youku Files/download/XNTk3MzA5NzgzMg==__guoyu/28.ts
+#EXTINF:13.48
+#EXT-X-PRIVINF:FILESIZE=3284394
+D:/Youku Files/download/XNTk3MzA5NzgzMg==__guoyu/29.ts
+#EXTINF:11.32
+#EXT-X-PRIVINF:FILESIZE=1490686
+D:/Youku Files/download/XNTk3MzA5NzgzMg==__guoyu/30.ts
+#EXTINF:14
+#EXT-X-PRIVINF:FILESIZE=2821350
+D:/Youku Files/download/XNTk3MzA5NzgzMg==__guoyu/31.ts
+#EXTINF:13.24
+#EXT-X-PRIVINF:FILESIZE=1702374
+D:/Youku Files/download/XNTk3MzA5NzgzMg==__guoyu/32.ts
+#EXTINF:15.16
+#EXT-X-PRIVINF:FILESIZE=2234414
+D:/Youku Files/download/XNTk3MzA5NzgzMg==__guoyu/33.ts
+#EXTINF:12.16
+#EXT-X-PRIVINF:FILESIZE=1392362
+D:/Youku Files/download/XNTk3MzA5NzgzMg==__guoyu/34.ts
+#EXTINF:10.44
+#EXT-X-PRIVINF:FILESIZE=1523022
+D:/Youku Files/download/XNTk3MzA5NzgzMg==__guoyu/35.ts
+#EXTINF:11.88
+#EXT-X-PRIVINF:FILESIZE=1892442
+D:/Youku Files/download/XNTk3MzA5NzgzMg==__guoyu/36.ts
+#EXTINF:10.04
+#EXT-X-PRIVINF:FILESIZE=2322022
+D:/Youku Files/download/XNTk3MzA5NzgzMg==__guoyu/37.ts
+#EXTINF:12.16
+#EXT-X-PRIVINF:FILESIZE=3325378
+D:/Youku Files/download/XNTk3MzA5NzgzMg==__guoyu/38.ts
+#EXTINF:12.92
+#EXT-X-PRIVINF:FILESIZE=3058794
+D:/Youku Files/download/XNTk3MzA5NzgzMg==__guoyu/39.ts
+#EXTINF:12.04
+#EXT-X-PRIVINF:FILESIZE=2359810
+D:/Youku Files/download/XNTk3MzA5NzgzMg==__guoyu/40.ts
+#EXTINF:14.48
+#EXT-X-PRIVINF:FILESIZE=3905546
+D:/Youku Files/download/XNTk3MzA5NzgzMg==__guoyu/41.ts
+#EXTINF:11.52
+#EXT-X-PRIVINF:FILESIZE=2210162
+D:/Youku Files/download/XNTk3MzA5NzgzMg==__guoyu/42.ts
+#EXTINF:10.24
+#EXT-X-PRIVINF:FILESIZE=2480694
+D:/Youku Files/download/XNTk3MzA5NzgzMg==__guoyu/43.ts
+#EXTINF:11.92
+#EXT-X-PRIVINF:FILESIZE=2548750
+D:/Youku Files/download/XNTk3MzA5NzgzMg==__guoyu/44.ts
+#EXTINF:10.76
+#EXT-X-PRIVINF:FILESIZE=2236106
+D:/Youku Files/download/XNTk3MzA5NzgzMg==__guoyu/45.ts
+#EXTINF:11.72
+#EXT-X-PRIVINF:FILESIZE=3506234
+D:/Youku Files/download/XNTk3MzA5NzgzMg==__guoyu/46.ts
+#EXTINF:10.96
+#EXT-X-PRIVINF:FILESIZE=2063898
+D:/Youku Files/download/XNTk3MzA5NzgzMg==__guoyu/47.ts
+#EXTINF:10.24
+#EXT-X-PRIVINF:FILESIZE=2171246
+D:/Youku Files/download/XNTk3MzA5NzgzMg==__guoyu/48.ts
+#EXTINF:10.96
+#EXT-X-PRIVINF:FILESIZE=3082482
+D:/Youku Files/download/XNTk3MzA5NzgzMg==__guoyu/49.ts
+#EXTINF:10.08
+#EXT-X-PRIVINF:FILESIZE=2253966
+D:/Youku Files/download/XNTk3MzA5NzgzMg==__guoyu/50.ts
+#EXTINF:11.48
+#EXT-X-PRIVINF:FILESIZE=3325002
+D:/Youku Files/download/XNTk3MzA5NzgzMg==__guoyu/51.ts
+#EXTINF:13.52
+#EXT-X-PRIVINF:FILESIZE=3220662
+D:/Youku Files/download/XNTk3MzA5NzgzMg==__guoyu/52.ts
+#EXTINF:11.4
+#EXT-X-PRIVINF:FILESIZE=2537658
+D:/Youku Files/download/XNTk3MzA5NzgzMg==__guoyu/53.ts
+#EXTINF:10.44
+#EXT-X-PRIVINF:FILESIZE=2355110
+D:/Youku Files/download/XNTk3MzA5NzgzMg==__guoyu/54.ts
+#EXTINF:10.4
+#EXT-X-PRIVINF:FILESIZE=2341950
+D:/Youku Files/download/XNTk3MzA5NzgzMg==__guoyu/55.ts
+#EXTINF:11.12
+#EXT-X-PRIVINF:FILESIZE=3221038
+D:/Youku Files/download/XNTk3MzA5NzgzMg==__guoyu/56.ts
+#EXTINF:10.24
+#EXT-X-PRIVINF:FILESIZE=3180242
+D:/Youku Files/download/XNTk3MzA5NzgzMg==__guoyu/57.ts
+#EXTINF:10.44
+#EXT-X-PRIVINF:FILESIZE=2102062
+D:/Youku Files/download/XNTk3MzA5NzgzMg==__guoyu/58.ts
+#EXTINF:11.28
+#EXT-X-PRIVINF:FILESIZE=2639742
+D:/Youku Files/download/XNTk3MzA5NzgzMg==__guoyu/59.ts
+#EXTINF:10.2
+#EXT-X-PRIVINF:FILESIZE=2729230
+D:/Youku Files/download/XNTk3MzA5NzgzMg==__guoyu/60.ts
+#EXTINF:10.12
+#EXT-X-PRIVINF:FILESIZE=2998258
+D:/Youku Files/download/XNTk3MzA5NzgzMg==__guoyu/61.ts
+#EXTINF:10.36
+#EXT-X-PRIVINF:FILESIZE=2160530
+D:/Youku Files/download/XNTk3MzA5NzgzMg==__guoyu/62.ts
+#EXTINF:11.8
+#EXT-X-PRIVINF:FILESIZE=3039242
+D:/Youku Files/download/XNTk3MzA5NzgzMg==__guoyu/63.ts
+#EXTINF:10.88
+#EXT-X-PRIVINF:FILESIZE=2827554
+D:/Youku Files/download/XNTk3MzA5NzgzMg==__guoyu/64.ts
+#EXTINF:14.52
+#EXT-X-PRIVINF:FILESIZE=1714970
+D:/Youku Files/download/XNTk3MzA5NzgzMg==__guoyu/65.ts
+#EXTINF:12
+#EXT-X-PRIVINF:FILESIZE=2176698
+D:/Youku Files/download/XNTk3MzA5NzgzMg==__guoyu/66.ts
+#EXTINF:10.04
+#EXT-X-PRIVINF:FILESIZE=1891126
+D:/Youku Files/download/XNTk3MzA5NzgzMg==__guoyu/67.ts
+#EXTINF:14.52
+#EXT-X-PRIVINF:FILESIZE=3006906
+D:/Youku Files/download/XNTk3MzA5NzgzMg==__guoyu/68.ts
+#EXTINF:12.72
+#EXT-X-PRIVINF:FILESIZE=2296454
+D:/Youku Files/download/XNTk3MzA5NzgzMg==__guoyu/69.ts
+#EXTINF:12.84
+#EXT-X-PRIVINF:FILESIZE=1639394
+D:/Youku Files/download/XNTk3MzA5NzgzMg==__guoyu/70.ts
+#EXTINF:10.72
+#EXT-X-PRIVINF:FILESIZE=2605150
+D:/Youku Files/download/XNTk3MzA5NzgzMg==__guoyu/71.ts
+#EXTINF:14.2
+#EXT-X-PRIVINF:FILESIZE=3086806
+D:/Youku Files/download/XNTk3MzA5NzgzMg==__guoyu/72.ts
+#EXTINF:10.12
+#EXT-X-PRIVINF:FILESIZE=3122902
+D:/Youku Files/download/XNTk3MzA5NzgzMg==__guoyu/73.ts
+#EXTINF:13.16
+#EXT-X-PRIVINF:FILESIZE=4648898
+D:/Youku Files/download/XNTk3MzA5NzgzMg==__guoyu/74.ts
+#EXTINF:11.88
+#EXT-X-PRIVINF:FILESIZE=3004650
+D:/Youku Files/download/XNTk3MzA5NzgzMg==__guoyu/75.ts
+#EXTINF:10.48
+#EXT-X-PRIVINF:FILESIZE=1268282
+D:/Youku Files/download/XNTk3MzA5NzgzMg==__guoyu/76.ts
+#EXTINF:10.04
+#EXT-X-PRIVINF:FILESIZE=575878
+D:/Youku Files/download/XNTk3MzA5NzgzMg==__guoyu/77.ts
+#EXTINF:11.04
+#EXT-X-PRIVINF:FILESIZE=1938126
+D:/Youku Files/download/XNTk3MzA5NzgzMg==__guoyu/78.ts
+#EXTINF:12.88
+#EXT-X-PRIVINF:FILESIZE=2305666
+D:/Youku Files/download/XNTk3MzA5NzgzMg==__guoyu/79.ts
+#EXTINF:12.08
+#EXT-X-PRIVINF:FILESIZE=1658194
+D:/Youku Files/download/XNTk3MzA5NzgzMg==__guoyu/80.ts
+#EXTINF:10.4
+#EXT-X-PRIVINF:FILESIZE=1467186
+D:/Youku Files/download/XNTk3MzA5NzgzMg==__guoyu/81.ts
+#EXTINF:16
+#EXT-X-PRIVINF:FILESIZE=3463558
+D:/Youku Files/download/XNTk3MzA5NzgzMg==__guoyu/82.ts
+#EXTINF:12.04
+#EXT-X-PRIVINF:FILESIZE=2895234
+D:/Youku Files/download/XNTk3MzA5NzgzMg==__guoyu/83.ts
+#EXTINF:10
+#EXT-X-PRIVINF:FILESIZE=1565510
+D:/Youku Files/download/XNTk3MzA5NzgzMg==__guoyu/84.ts
+#EXTINF:12.6
+#EXT-X-PRIVINF:FILESIZE=4465598
+D:/Youku Files/download/XNTk3MzA5NzgzMg==__guoyu/85.ts
+#EXTINF:10.44
+#EXT-X-PRIVINF:FILESIZE=1407026
+D:/Youku Files/download/XNTk3MzA5NzgzMg==__guoyu/86.ts
+#EXTINF:10.24
+#EXT-X-PRIVINF:FILESIZE=1957302
+D:/Youku Files/download/XNTk3MzA5NzgzMg==__guoyu/87.ts
+#EXTINF:9.96
+#EXT-X-PRIVINF:FILESIZE=1975162
+D:/Youku Files/download/XNTk3MzA5NzgzMg==__guoyu/88.ts
+#EXTINF:11.88
+#EXT-X-PRIVINF:FILESIZE=2872862
+D:/Youku Files/download/XNTk3MzA5NzgzMg==__guoyu/89.ts
+#EXTINF:13.4
+#EXT-X-PRIVINF:FILESIZE=2090218
+D:/Youku Files/download/XNTk3MzA5NzgzMg==__guoyu/90.ts
+#EXTINF:11.48
+#EXT-X-PRIVINF:FILESIZE=2516414
+D:/Youku Files/download/XNTk3MzA5NzgzMg==__guoyu/91.ts
+#EXTINF:11.8
+#EXT-X-PRIVINF:FILESIZE=3315038
+D:/Youku Files/download/XNTk3MzA5NzgzMg==__guoyu/92.ts
+#EXTINF:13.92
+#EXT-X-PRIVINF:FILESIZE=2101498
+D:/Youku Files/download/XNTk3MzA5NzgzMg==__guoyu/93.ts
+#EXTINF:9.96
+#EXT-X-PRIVINF:FILESIZE=988914
+D:/Youku Files/download/XNTk3MzA5NzgzMg==__guoyu/94.ts
+#EXTINF:10.44
+#EXT-X-PRIVINF:FILESIZE=1074454
+D:/Youku Files/download/XNTk3MzA5NzgzMg==__guoyu/95.ts
+#EXTINF:10.64
+#EXT-X-PRIVINF:FILESIZE=2152634
+D:/Youku Files/download/XNTk3MzA5NzgzMg==__guoyu/96.ts
+#EXTINF:11.16
+#EXT-X-PRIVINF:FILESIZE=1680754
+D:/Youku Files/download/XNTk3MzA5NzgzMg==__guoyu/97.ts
+#EXTINF:11.08
+#EXT-X-PRIVINF:FILESIZE=1889622
+D:/Youku Files/download/XNTk3MzA5NzgzMg==__guoyu/98.ts
+#EXTINF:11.36
+#EXT-X-PRIVINF:FILESIZE=2522242
+D:/Youku Files/download/XNTk3MzA5NzgzMg==__guoyu/99.ts
+#EXTINF:11.96
+#EXT-X-PRIVINF:FILESIZE=1931358
+D:/Youku Files/download/XNTk3MzA5NzgzMg==__guoyu/100.ts
+#EXTINF:10.56
+#EXT-X-PRIVINF:FILESIZE=2262426
+D:/Youku Files/download/XNTk3MzA5NzgzMg==__guoyu/101.ts
+#EXTINF:10.08
+#EXT-X-PRIVINF:FILESIZE=2479378
+D:/Youku Files/download/XNTk3MzA5NzgzMg==__guoyu/102.ts
+#EXTINF:11.96
+#EXT-X-PRIVINF:FILESIZE=2411134
+D:/Youku Files/download/XNTk3MzA5NzgzMg==__guoyu/103.ts
+#EXTINF:11.28
+#EXT-X-PRIVINF:FILESIZE=2565106
+D:/Youku Files/download/XNTk3MzA5NzgzMg==__guoyu/104.ts
+#EXTINF:10.04
+#EXT-X-PRIVINF:FILESIZE=1996030
+D:/Youku Files/download/XNTk3MzA5NzgzMg==__guoyu/105.ts
+#EXTINF:12.8
+#EXT-X-PRIVINF:FILESIZE=2607594
+D:/Youku Files/download/XNTk3MzA5NzgzMg==__guoyu/106.ts
+#EXTINF:11.8
+#EXT-X-PRIVINF:FILESIZE=2867410
+D:/Youku Files/download/XNTk3MzA5NzgzMg==__guoyu/107.ts
+#EXTINF:13.32
+#EXT-X-PRIVINF:FILESIZE=1563442
+D:/Youku Files/download/XNTk3MzA5NzgzMg==__guoyu/108.ts
+#EXTINF:14.08
+#EXT-X-PRIVINF:FILESIZE=929506
+D:/Youku Files/download/XNTk3MzA5NzgzMg==__guoyu/109.ts
+#EXTINF:14.04
+#EXT-X-PRIVINF:FILESIZE=1674738
+D:/Youku Files/download/XNTk3MzA5NzgzMg==__guoyu/110.ts
+#EXTINF:13.48
+#EXT-X-PRIVINF:FILESIZE=2330482
+D:/Youku Files/download/XNTk3MzA5NzgzMg==__guoyu/111.ts
+#EXTINF:12.4
+#EXT-X-PRIVINF:FILESIZE=2081570
+D:/Youku Files/download/XNTk3MzA5NzgzMg==__guoyu/112.ts
+#EXTINF:10.68
+#EXT-X-PRIVINF:FILESIZE=1689214
+D:/Youku Files/download/XNTk3MzA5NzgzMg==__guoyu/113.ts
+#EXTINF:11.28
+#EXT-X-PRIVINF:FILESIZE=2351914
+D:/Youku Files/download/XNTk3MzA5NzgzMg==__guoyu/114.ts
+#EXTINF:12.84
+#EXT-X-PRIVINF:FILESIZE=1968958
+D:/Youku Files/download/XNTk3MzA5NzgzMg==__guoyu/115.ts
+#EXTINF:11.24
+#EXT-X-PRIVINF:FILESIZE=2065026
+D:/Youku Files/download/XNTk3MzA5NzgzMg==__guoyu/116.ts
+#EXTINF:10.16
+#EXT-X-PRIVINF:FILESIZE=1911806
+D:/Youku Files/download/XNTk3MzA5NzgzMg==__guoyu/117.ts
+#EXTINF:10.48
+#EXT-X-PRIVINF:FILESIZE=1836418
+D:/Youku Files/download/XNTk3MzA5NzgzMg==__guoyu/118.ts
+#EXTINF:11.36
+#EXT-X-PRIVINF:FILESIZE=2321270
+D:/Youku Files/download/XNTk3MzA5NzgzMg==__guoyu/119.ts
+#EXTINF:11.36
+#EXT-X-PRIVINF:FILESIZE=1348370
+D:/Youku Files/download/XNTk3MzA5NzgzMg==__guoyu/120.ts
+#EXTINF:9.96
+#EXT-X-PRIVINF:FILESIZE=2660610
+D:/Youku Files/download/XNTk3MzA5NzgzMg==__guoyu/121.ts
+#EXTINF:11.96
+#EXT-X-PRIVINF:FILESIZE=1217146
+D:/Youku Files/download/XNTk3MzA5NzgzMg==__guoyu/122.ts
+#EXT-X-ENDLIST
+

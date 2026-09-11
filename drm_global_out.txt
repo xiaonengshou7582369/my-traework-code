@@ -1,0 +1,13 @@
+﻿Loading DRM JS...
+DRM JS loaded successfully
+
+=== Calling _sce_dlgtqred ===
+Found global _sce_dlgtqred
+Result type: object
+Result: [0,64,0,3,32,0,108,0,18,0,128,0,104,11,128,0,0,0]
+
+=== Calling _sce_lgtcaygl ===
+Result: INs5XBq0IOi/fDnQU5R+riWqeLNj+hbB
+
+=== Calling _sce_r_skjhfnck ===
+Result: "b6YYzCmNcPedmen0"

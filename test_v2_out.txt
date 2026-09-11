@@ -1,0 +1,59 @@
+﻿PES: 157B, first16: 93f7a5941fd8bcbdee238d75e3806029
+
+Keys:
+  lgtcaygl 24B: 20db395c1ab420e8bf7c39d053947eae25aa78b363fa16c1
+  dlgtqred 18B: 0040000320006c0012008000680b80000000
+
+Ciphertext: 128B (4 blocks)
+
+=== Testing lib.sesca.lgt (decrypt) ===
+
+--- lgtcaygl_24B (24B) ---
+  sigBytes: 0
+  first32: 
+  NAL start: no
+  nal4=0 nal3=0
+
+--- dlgt_18padded24 (24B) ---
+  sigBytes: 0
+  first32: 
+  NAL start: no
+  nal4=0 nal3=0
+
+--- dlgt_18padded32 (32B) ---
+  sigBytes: 0
+  first32: 
+  NAL start: no
+  nal4=0 nal3=0
+
+--- lgtcaygl_24padded32 (32B) ---
+  sigBytes: 0
+  first32: 
+  NAL start: no
+  nal4=0 nal3=0
+
+--- dlgt_first16 (16B) ---
+  sigBytes: 0
+  first32: 
+  NAL start: no
+  nal4=0 nal3=0
+
+--- R1Random_16B (16B) ---
+  sigBytes: 0
+  first32: 
+  NAL start: no
+  nal4=0 nal3=0
+
+=== Sanity check: encrypt then decrypt ===
+Error: Cannot read properties of undefined (reading '0')
+
+=== Test with PKCS7 padding ===
+lgtcaygl_24B PKCS7: no first16: 
+dlgt_32 PKCS7: no first16: 
+
+=== Test with Kdlb mode ===
+lgtcaygl_24B Kdlb: no first16: 
+dlgt_32 Kdlb: no first16: 
+
+=== Test with kdf (kmndsjh) ===
+R1Str kdf: Cannot read properties of undefined (reading 'ctac')

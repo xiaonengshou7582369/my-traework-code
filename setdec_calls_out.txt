@@ -1,0 +1,266 @@
+﻿Searching 162 files
+
+============================================================
+.setDecryption( in 06d208ad6fdedaaf1868f7dc6ad0a0bf.js, pos: 61232
+============================================================
+er.sequential:n,this.aligner.setConfig({type:i,timestampOffset:t,discontinuity:e,sequential:n})}},A.prototype.flush=function(){this.currentTransmuxer.flush()},A.prototype.destroy=function(){this.transmuxerCollection.forEach((function(A){A.destroy()}))},A.prototype.findAllStreams=function(){return this.currentTransmuxer.findAllStreams()},A.prototype.getOutput=function(A){return this.currentTransmuxer.getOutput(A)},A.prototype.setDecryption=function(A,t){void 0===A&&(A=null),this.currentTransmuxer.setDecryption(A,t)},A.prototype.push=function(A){this.currentTransmuxer.push(A)},A.prototype.endOfStream=function(A){var t=this.transmuxerCollection.get(A);t&&t.endOfStream()},A.prototype.abort=function(){this.currentTransmuxer.abort()},A.prototype.reset=function(){this.transmuxerCollection.forEach
+
+============================================================
+.setDecryption( in 06d208ad6fdedaaf1868f7dc6ad0a0bf.js, pos: 520795
+============================================================
+h(e){A.postMessage({type:n.a.ERROR,error:{message:e.message,stack:e.stack}})}break;case n.a.GET_OUTPUT:try{var o=i.data.config,a=t.getOutput(o),s={type:n.a.RESULT_RETURN,payload:{streams:a.streams,data:a.data}};A.postMessage(s)}catch(e){A.postMessage({type:n.a.ERROR,error:{message:e.message,stack:e.stack}})}break;case n.a.INIT:try{t.init(i.data.type,i.data.demuxer,i.data.remuxers)}catch(e){A.postMessage({type:n.a.ERROR,error:{message:e.message,stack:e.stack}})}break;case n.a.SET_DECRYPTION:try{t.setDecryption(i.data.method,i.data.key)}catch(e){A.postMessage({type:n.a.ERROR,error:{message:e.message,stack:e.stack}})}break;case n.a.RESET:try{t.reset()}catch(e){A.postMessage({type:n.a.ERROR,error:{message:e.message,stack:e.stack}})}}}))}},function(A,t,e){"use strict";e.r(t);var n,i,r=e(1),o=fu
+
+============================================================
+.setDecryption( in 06d208ad6fdedaaf1868f7dc6ad0a0bf.js, pos: 2553844
+============================================================
+e.destroyAligner=function(){this.transmuxer.destroyAligner()},A.prototype.setAligner=function(A){this.transmuxer.setAligner(A)},A.prototype.reset=function(){this.transmuxer.reset(),this.abortAll()},A.prototype.destroy=function(){this.reset(),this.transmuxer.destroyWorker()},A.prototype.init=function(A,t,e){this.transmuxer.init(A,t,e)},A.prototype.push=function(A){this.transmuxer.push(A)},A.prototype.flush=function(){this.transmuxer.flush()},A.prototype.setDecryption=function(A,t){this.transmuxer.setDecryption(A,t)},A}(),SP=function(){var A=function(t,e){return(A=Object.setPrototypeOf||{__proto__:[]}instanceof Array&&function(A,t){A.__proto__=t}||function(A,t){for(var e in t)t.hasOwnProperty(e)&&(A[e]=t[e])})(t,e)};return function(t,e){function n(){this.constructor=t}A(t,e),t.prototype=null
+
+============================================================
+.setDecryption( in 06d208ad6fdedaaf1868f7dc6ad0a0bf.js, pos: 2569952
+============================================================
+itSegment,te.ContainerFormat.MP4).timescale),e.pts=D.baseMediaDecodeTime/n.timescale,n.streamNum=e.type!=te.MediaType.MIXED?1:2}if(-1!==this.targetFormat.indexOf(n.format)&&!this.config.transmuxEnabled)return A(e,n);this._transmuxer.init(e.type,n.format,this.targetFormat),this.aligner&&this._transmuxer.setAligner({type:e.type,timestampOffset:e.start,discontinuity:o,sequential:a}),(!0===e.encrypted||e.encrypted&&e.encrypted.type&&e.encrypted.type!==te.EncryptMethodType.WIDEVINE)&&this._transmuxer.setDecryption(this.decryptKey,this.decryptMethod),o&&n.initSegment?(this._transmuxer.push(n.initSegment),this._transmuxer.push(e.data)):this._transmuxer.push(e.data),e.isLastChunk&&this._transmuxer.flush();var P={fmp4:!0,separate:!0,type:e.type};e.isLastChunk&&e.type===te.MediaType.MIXED&&(P.forceA
+
+============================================================
+.setDecryption( in 06d208ad6fdedaaf1868f7dc6ad0a0bf.js, pos: 2731686
+============================================================
+ll)},t}(te.EventBus),Hf=function(){var A=function(t,e){return(A=Object.setPrototypeOf||{__proto__:[]}instanceof Array&&function(A,t){A.__proto__=t}||function(A,t){for(var e in t)t.hasOwnProperty(e)&&(A[e]=t[e])})(t,e)};return function(t,e){function n(){this.constructor=t}A(t,e),t.prototype=null===e?Object.create(e):(n.prototype=e.prototype,new n)}}(),Nf=function(A){function t(t,e){var n=A.call(this)||this;return n.decodeKey=t,n.AESMode=e||"AES-ECB",n}return Hf(t,A),t.prototype.init=function(A){A.setDecryption(this.decodeKey,this.AESMode)},t.prototype.destroy=function(){console.warn("clear id",this.filterId)},t.prototype.reset=function(){},t.prototype.setConfig=function(A){},t.prototype.start=function(A,t,e){},t}(a.a),jf={audio:{a3ds:!0,"ac-3":!0,"ac-4":!0,alac:!0,alaw:!0,dra1:!0,"dts+":!0,
+
+============================================================
+.setDecryption( in 55f16268098bdd2f3e8b4bec22327c57.js, pos: 57266
+============================================================
+er.sequential:i,this.aligner.setConfig({type:n,timestampOffset:t,discontinuity:r,sequential:i})}},e.prototype.flush=function(){this.currentTransmuxer.flush()},e.prototype.destroy=function(){this.transmuxerCollection.forEach((function(e){e.destroy()}))},e.prototype.findAllStreams=function(){return this.currentTransmuxer.findAllStreams()},e.prototype.getOutput=function(e){return this.currentTransmuxer.getOutput(e)},e.prototype.setDecryption=function(e,t){void 0===e&&(e=null),this.currentTransmuxer.setDecryption(e,t)},e.prototype.push=function(e){this.currentTransmuxer.push(e)},e.prototype.endOfStream=function(e){var t=this.transmuxerCollection.get(e);t&&t.endOfStream()},e.prototype.abort=function(){this.currentTransmuxer.abort()},e.prototype.reset=function(){this.transmuxerCollection.forEach
+
+============================================================
+.setDecryption( in 55f16268098bdd2f3e8b4bec22327c57.js, pos: 240259
+============================================================
+h(r){e.postMessage({type:i.a.ERROR,error:{message:r.message,stack:r.stack}})}break;case i.a.GET_OUTPUT:try{var a=n.data.config,s=t.getOutput(a),u={type:i.a.RESULT_RETURN,payload:{streams:s.streams,data:s.data}};e.postMessage(u)}catch(r){e.postMessage({type:i.a.ERROR,error:{message:r.message,stack:r.stack}})}break;case i.a.INIT:try{t.init(n.data.type,n.data.demuxer,n.data.remuxers)}catch(r){e.postMessage({type:i.a.ERROR,error:{message:r.message,stack:r.stack}})}break;case i.a.SET_DECRYPTION:try{t.setDecryption(n.data.method,n.data.key)}catch(r){e.postMessage({type:i.a.ERROR,error:{message:r.message,stack:r.stack}})}break;case i.a.RESET:try{t.reset()}catch(r){e.postMessage({type:i.a.ERROR,error:{message:r.message,stack:r.stack}})}}}))}},function(e,t){"undefined"==typeof window&&(window={ctrl
+
+============================================================
+.setDecryption( in 55f16268098bdd2f3e8b4bec22327c57.js, pos: 312171
+============================================================
+e.destroyAligner=function(){this.transmuxer.destroyAligner()},e.prototype.setAligner=function(e){this.transmuxer.setAligner(e)},e.prototype.reset=function(){this.transmuxer.reset(),this.abortAll()},e.prototype.destroy=function(){this.reset(),this.transmuxer.destroyWorker()},e.prototype.init=function(e,t,r){this.transmuxer.init(e,t,r)},e.prototype.push=function(e){this.transmuxer.push(e)},e.prototype.flush=function(){this.transmuxer.flush()},e.prototype.setDecryption=function(e,t){this.transmuxer.setDecryption(e,t)},e}(),je=function(){var e=function(t,r){return(e=Object.setPrototypeOf||{__proto__:[]}instanceof Array&&function(e,t){e.__proto__=t}||function(e,t){for(var r in t)t.hasOwnProperty(r)&&(e[r]=t[r])})(t,r)};return function(t,r){function i(){this.constructor=t}e(t,r),t.prototype=null
+
+============================================================
+.setDecryption( in 55f16268098bdd2f3e8b4bec22327c57.js, pos: 328097
+============================================================
+e=Ke.b.parse(i.initSegment,H.b.MP4).timescale),r.pts=d.baseMediaDecodeTime/i.timescale,i.streamNum=r.type!=w.MediaType.MIXED?1:2}if(-1!==this.targetFormat.indexOf(i.format)&&!this.config.transmuxEnabled)return e(r,i);this._transmuxer.init(r.type,i.format,this.targetFormat),this.aligner&&this._transmuxer.setAligner({type:r.type,timestampOffset:r.start,discontinuity:a,sequential:s}),(!0===r.encrypted||r.encrypted&&r.encrypted.type&&r.encrypted.type!==w.EncryptMethodType.WIDEVINE)&&this._transmuxer.setDecryption(this.decryptKey,this.decryptMethod),a&&i.initSegment?(this._transmuxer.push(i.initSegment),this._transmuxer.push(r.data)):this._transmuxer.push(r.data),r.isLastChunk&&this._transmuxer.flush();var h={fmp4:!0,separate:!0,type:r.type};r.isLastChunk&&r.type===w.MediaType.MIXED&&(h.forceAl
+
+============================================================
+.setDecryption( in 96c23d656fe0287c888517e5db88e848.js, pos: 55954
+============================================================
+er.sequential:n,this.aligner.setConfig({type:i,timestampOffset:t,discontinuity:e,sequential:n})}},A.prototype.flush=function(){this.currentTransmuxer.flush()},A.prototype.destroy=function(){this.transmuxerCollection.forEach((function(A){A.destroy()}))},A.prototype.findAllStreams=function(){return this.currentTransmuxer.findAllStreams()},A.prototype.getOutput=function(A){return this.currentTransmuxer.getOutput(A)},A.prototype.setDecryption=function(A,t){void 0===A&&(A=null),this.currentTransmuxer.setDecryption(A,t)},A.prototype.push=function(A){this.currentTransmuxer.push(A)},A.prototype.endOfStream=function(A){var t=this.transmuxerCollection.get(A);t&&t.endOfStream()},A.prototype.abort=function(){this.currentTransmuxer.abort()},A.prototype.reset=function(){this.transmuxerCollection.forEach
+
+============================================================
+.setDecryption( in 96c23d656fe0287c888517e5db88e848.js, pos: 500807
+============================================================
+h(e){A.postMessage({type:n.a.ERROR,error:{message:e.message,stack:e.stack}})}break;case n.a.GET_OUTPUT:try{var o=i.data.config,a=t.getOutput(o),s={type:n.a.RESULT_RETURN,payload:{streams:a.streams,data:a.data}};A.postMessage(s)}catch(e){A.postMessage({type:n.a.ERROR,error:{message:e.message,stack:e.stack}})}break;case n.a.INIT:try{t.init(i.data.type,i.data.demuxer,i.data.remuxers)}catch(e){A.postMessage({type:n.a.ERROR,error:{message:e.message,stack:e.stack}})}break;case n.a.SET_DECRYPTION:try{t.setDecryption(i.data.method,i.data.key)}catch(e){A.postMessage({type:n.a.ERROR,error:{message:e.message,stack:e.stack}})}break;case n.a.RESET:try{t.reset()}catch(e){A.postMessage({type:n.a.ERROR,error:{message:e.message,stack:e.stack}})}}}))}},function(A,t,e){"use strict";var n,i,r,o,a;e.r(t),funct
+
+============================================================
+.setDecryption( in 96c23d656fe0287c888517e5db88e848.js, pos: 2490082
+============================================================
+e.destroyAligner=function(){this.transmuxer.destroyAligner()},A.prototype.setAligner=function(A){this.transmuxer.setAligner(A)},A.prototype.reset=function(){this.transmuxer.reset(),this.abortAll()},A.prototype.destroy=function(){this.reset(),this.transmuxer.destroyWorker()},A.prototype.init=function(A,t,e){this.transmuxer.init(A,t,e)},A.prototype.push=function(A){this.transmuxer.push(A)},A.prototype.flush=function(){this.transmuxer.flush()},A.prototype.setDecryption=function(A,t){this.transmuxer.setDecryption(A,t)},A}(),DP=function(){var A=function(t,e){return(A=Object.setPrototypeOf||{__proto__:[]}instanceof Array&&function(A,t){A.__proto__=t}||function(A,t){for(var e in t)t.hasOwnProperty(e)&&(A[e]=t[e])})(t,e)};return function(t,e){function n(){this.constructor=t}A(t,e),t.prototype=null
+
+============================================================
+.setDecryption( in 96c23d656fe0287c888517e5db88e848.js, pos: 2506190
+============================================================
+itSegment,Mt.ContainerFormat.MP4).timescale),e.pts=D.baseMediaDecodeTime/n.timescale,n.streamNum=e.type!=Mt.MediaType.MIXED?1:2}if(-1!==this.targetFormat.indexOf(n.format)&&!this.config.transmuxEnabled)return A(e,n);this._transmuxer.init(e.type,n.format,this.targetFormat),this.aligner&&this._transmuxer.setAligner({type:e.type,timestampOffset:e.start,discontinuity:o,sequential:a}),(!0===e.encrypted||e.encrypted&&e.encrypted.type&&e.encrypted.type!==Mt.EncryptMethodType.WIDEVINE)&&this._transmuxer.setDecryption(this.decryptKey,this.decryptMethod),o&&n.initSegment?(this._transmuxer.push(n.initSegment),this._transmuxer.push(e.data)):this._transmuxer.push(e.data),e.isLastChunk&&this._transmuxer.flush();var P={fmp4:!0,separate:!0,type:e.type};e.isLastChunk&&e.type===Mt.MediaType.MIXED&&(P.forceA
+
+============================================================
+.setDecryption( in 96c23d656fe0287c888517e5db88e848.js, pos: 2669195
+============================================================
+ll)},t}(Mt.EventBus),lf=function(){var A=function(t,e){return(A=Object.setPrototypeOf||{__proto__:[]}instanceof Array&&function(A,t){A.__proto__=t}||function(A,t){for(var e in t)t.hasOwnProperty(e)&&(A[e]=t[e])})(t,e)};return function(t,e){function n(){this.constructor=t}A(t,e),t.prototype=null===e?Object.create(e):(n.prototype=e.prototype,new n)}}(),vf=function(A){function t(t,e){var n=A.call(this)||this;return n.decodeKey=t,n.AESMode=e||"AES-ECB",n}return lf(t,A),t.prototype.init=function(A){A.setDecryption(this.decodeKey,this.AESMode)},t.prototype.destroy=function(){console.warn("clear id",this.filterId)},t.prototype.reset=function(){},t.prototype.setConfig=function(A){},t.prototype.start=function(A,t,e){},t}(f),pf={audio:{a3ds:!0,"ac-3":!0,"ac-4":!0,alac:!0,alaw:!0,dra1:!0,"dts+":!0,"d
+
+============================================================
+.setDecryption( in 9bfde36f7528f854b52055218f494ec0.js, pos: 60724
+============================================================
+er.sequential:r,this.aligner.setConfig({type:n,timestampOffset:t,discontinuity:i,sequential:r})}},e.prototype.flush=function(){this.currentTransmuxer.flush()},e.prototype.destroy=function(){this.transmuxerCollection.forEach((function(e){e.destroy()}))},e.prototype.findAllStreams=function(){return this.currentTransmuxer.findAllStreams()},e.prototype.getOutput=function(e){return this.currentTransmuxer.getOutput(e)},e.prototype.setDecryption=function(e,t){void 0===e&&(e=null),this.currentTransmuxer.setDecryption(e,t)},e.prototype.push=function(e){this.currentTransmuxer.push(e)},e.prototype.endOfStream=function(e){var t=this.transmuxerCollection.get(e);t&&t.endOfStream()},e.prototype.abort=function(){this.currentTransmuxer.abort()},e.prototype.reset=function(){this.transmuxerCollection.forEach
+
+============================================================
+.setDecryption( in 9bfde36f7528f854b52055218f494ec0.js, pos: 459189
+============================================================
+e.prototype.initAligner=function(){this.transmuxer.initAligner()},e.prototype.setAligner=function(e){this.transmuxer.setAligner(e)},e.prototype.reset=function(){this.transmuxer.reset(),this.abortAll()},e.prototype.destroy=function(){this.reset(),this.transmuxer.destroyWorker()},e.prototype.init=function(e,t){this.transmuxer.init(e,t)},e.prototype.push=function(e){this.transmuxer.push(e)},e.prototype.flush=function(){this.transmuxer.flush()},e.prototype.setDecryption=function(e,t){this.transmuxer.setDecryption(e,t)},e}();t.TransmuxerController=c},function(e,t,i){"use strict";var r,n=this&&this.__extends||(r=function(e,t){return(r=Object.setPrototypeOf||{__proto__:[]}instanceof Array&&function(e,t){e.__proto__=t}||function(e,t){for(var i in t)t.hasOwnProperty(i)&&(e[i]=t[i])})(e,t)},function
+
+============================================================
+.setDecryption( in 9bfde36f7528f854b52055218f494ec0.js, pos: 466389
+============================================================
+reak;case r.TransmuxerAction.GET_OUTPUT:try{var a=n.data.config,s=t.getOutput(a),u={type:r.TransmuxerAction.RESULT_RETURN,payload:{streams:s.streams,data:s.data}};e.postMessage(u)}catch(i){e.postMessage({type:r.TransmuxerAction.ERROR,error:{message:i.message,stack:i.stack}})}break;case r.TransmuxerAction.INIT:try{t.init(n.data.demuxer,n.data.remuxers)}catch(i){e.postMessage({type:r.TransmuxerAction.ERROR,error:{message:i.message,stack:i.stack}})}break;case r.TransmuxerAction.SET_DECRYPTION:try{t.setDecryption(n.data.method,n.data.key)}catch(i){e.postMessage({type:r.TransmuxerAction.ERROR,error:{message:i.message,stack:i.stack}})}break;case r.TransmuxerAction.RESET:try{t.reset()}catch(i){e.postMessage({type:r.TransmuxerAction.ERROR,error:{message:i.message,stack:i.stack}})}}}))}},function(e
+
+============================================================
+.setDecryption( in 9bfde36f7528f854b52055218f494ec0.js, pos: 567840
+============================================================
+h(i){e.postMessage({type:r.a.ERROR,error:{message:i.message,stack:i.stack}})}break;case r.a.GET_OUTPUT:try{var a=n.data.config,s=t.getOutput(a),u={type:r.a.RESULT_RETURN,payload:{streams:s.streams,data:s.data}};e.postMessage(u)}catch(i){e.postMessage({type:r.a.ERROR,error:{message:i.message,stack:i.stack}})}break;case r.a.INIT:try{t.init(n.data.type,n.data.demuxer,n.data.remuxers)}catch(i){e.postMessage({type:r.a.ERROR,error:{message:i.message,stack:i.stack}})}break;case r.a.SET_DECRYPTION:try{t.setDecryption(n.data.method,n.data.key)}catch(i){e.postMessage({type:r.a.ERROR,error:{message:i.message,stack:i.stack}})}break;case r.a.RESET:try{t.reset()}catch(i){e.postMessage({type:r.a.ERROR,error:{message:i.message,stack:i.stack}})}}}))}},function(e,t){"undefined"==typeof window&&(window={ctrl
+
+============================================================
+.setDecryption( in 9bfde36f7528f854b52055218f494ec0.js, pos: 661998
+============================================================
+e.destroyAligner=function(){this.transmuxer.destroyAligner()},e.prototype.setAligner=function(e){this.transmuxer.setAligner(e)},e.prototype.reset=function(){this.transmuxer.reset(),this.abortAll()},e.prototype.destroy=function(){this.reset(),this.transmuxer.destroyWorker()},e.prototype.init=function(e,t,i){this.transmuxer.init(e,t,i)},e.prototype.push=function(e){this.transmuxer.push(e)},e.prototype.flush=function(){this.transmuxer.flush()},e.prototype.setDecryption=function(e,t){this.transmuxer.setDecryption(e,t)},e}(),Fe=function(){var e=function(t,i){return(e=Object.setPrototypeOf||{__proto__:[]}instanceof Array&&function(e,t){e.__proto__=t}||function(e,t){for(var i in t)t.hasOwnProperty(i)&&(e[i]=t[i])})(t,i)};return function(t,i){function r(){this.constructor=t}e(t,i),t.prototype=null
+
+============================================================
+.setDecryption( in 9bfde36f7528f854b52055218f494ec0.js, pos: 678058
+============================================================
+.initSegment,T.ContainerFormat.MP4).timescale),i.pts=l.baseMediaDecodeTime/r.timescale,r.streamNum=i.type!=T.MediaType.MIXED?1:2}if(-1!==this.targetFormat.indexOf(r.format)&&!this.config.transmuxEnabled)return e(i,r);this._transmuxer.init(i.type,r.format,this.targetFormat),this.aligner&&this._transmuxer.setAligner({type:i.type,timestampOffset:i.start,discontinuity:a,sequential:s}),(!0===i.encrypted||i.encrypted&&i.encrypted.type&&i.encrypted.type!==T.EncryptMethodType.WIDEVINE)&&this._transmuxer.setDecryption(this.decryptKey,this.decryptMethod),a&&r.initSegment?(this._transmuxer.push(r.initSegment),this._transmuxer.push(i.data)):this._transmuxer.push(i.data),i.isLastChunk&&this._transmuxer.flush();var p={fmp4:!0,separate:!0,type:i.type};i.isLastChunk&&i.type===T.MediaType.MIXED&&(p.forceAl
+
+============================================================
+.setDecryption( in 07d5dc9e7cbd5aae017b11d4020485e2.js, pos: 56107
+============================================================
+er.sequential:n,this.aligner.setConfig({type:i,timestampOffset:t,discontinuity:e,sequential:n})}},A.prototype.flush=function(){this.currentTransmuxer.flush()},A.prototype.destroy=function(){this.transmuxerCollection.forEach((function(A){A.destroy()}))},A.prototype.findAllStreams=function(){return this.currentTransmuxer.findAllStreams()},A.prototype.getOutput=function(A){return this.currentTransmuxer.getOutput(A)},A.prototype.setDecryption=function(A,t){void 0===A&&(A=null),this.currentTransmuxer.setDecryption(A,t)},A.prototype.push=function(A){this.currentTransmuxer.push(A)},A.prototype.endOfStream=function(A){var t=this.transmuxerCollection.get(A);t&&t.endOfStream()},A.prototype.abort=function(){this.currentTransmuxer.abort()},A.prototype.reset=function(){this.transmuxerCollection.forEach
+
+============================================================
+.setDecryption( in 07d5dc9e7cbd5aae017b11d4020485e2.js, pos: 540372
+============================================================
+h(e){A.postMessage({type:n.a.ERROR,error:{message:e.message,stack:e.stack}})}break;case n.a.GET_OUTPUT:try{var o=i.data.config,a=t.getOutput(o),s={type:n.a.RESULT_RETURN,payload:{streams:a.streams,data:a.data}};A.postMessage(s)}catch(e){A.postMessage({type:n.a.ERROR,error:{message:e.message,stack:e.stack}})}break;case n.a.INIT:try{t.init(i.data.type,i.data.demuxer,i.data.remuxers)}catch(e){A.postMessage({type:n.a.ERROR,error:{message:e.message,stack:e.stack}})}break;case n.a.SET_DECRYPTION:try{t.setDecryption(i.data.method,i.data.key)}catch(e){A.postMessage({type:n.a.ERROR,error:{message:e.message,stack:e.stack}})}break;case n.a.RESET:try{t.reset()}catch(e){A.postMessage({type:n.a.ERROR,error:{message:e.message,stack:e.stack}})}}}))}},function(A,t,e){"use strict";var n,i,r,o,a;e.r(t),funct
+
+============================================================
+.setDecryption( in 07d5dc9e7cbd5aae017b11d4020485e2.js, pos: 2553935
+============================================================
+e.destroyAligner=function(){this.transmuxer.destroyAligner()},A.prototype.setAligner=function(A){this.transmuxer.setAligner(A)},A.prototype.reset=function(){this.transmuxer.reset(),this.abortAll()},A.prototype.destroy=function(){this.reset(),this.transmuxer.destroyWorker()},A.prototype.init=function(A,t,e){this.transmuxer.init(A,t,e)},A.prototype.push=function(A){this.transmuxer.push(A)},A.prototype.flush=function(){this.transmuxer.flush()},A.prototype.setDecryption=function(A,t){this.transmuxer.setDecryption(A,t)},A}(),yP=function(){var A=function(t,e){return(A=Object.setPrototypeOf||{__proto__:[]}instanceof Array&&function(A,t){A.__proto__=t}||function(A,t){for(var e in t)t.hasOwnProperty(e)&&(A[e]=t[e])})(t,e)};return function(t,e){function n(){this.constructor=t}A(t,e),t.prototype=null
+
+============================================================
+.setDecryption( in 07d5dc9e7cbd5aae017b11d4020485e2.js, pos: 2570043
+============================================================
+itSegment,Ot.ContainerFormat.MP4).timescale),e.pts=D.baseMediaDecodeTime/n.timescale,n.streamNum=e.type!=Ot.MediaType.MIXED?1:2}if(-1!==this.targetFormat.indexOf(n.format)&&!this.config.transmuxEnabled)return A(e,n);this._transmuxer.init(e.type,n.format,this.targetFormat),this.aligner&&this._transmuxer.setAligner({type:e.type,timestampOffset:e.start,discontinuity:o,sequential:a}),(!0===e.encrypted||e.encrypted&&e.encrypted.type&&e.encrypted.type!==Ot.EncryptMethodType.WIDEVINE)&&this._transmuxer.setDecryption(this.decryptKey,this.decryptMethod),o&&n.initSegment?(this._transmuxer.push(n.initSegment),this._transmuxer.push(e.data)):this._transmuxer.push(e.data),e.isLastChunk&&this._transmuxer.flush();var P={fmp4:!0,separate:!0,type:e.type};e.isLastChunk&&e.type===Ot.MediaType.MIXED&&(P.forceA
+
+============================================================
+.setDecryption( in 07d5dc9e7cbd5aae017b11d4020485e2.js, pos: 2738020
+============================================================
+ll)},t}(Ot.EventBus),Nf=function(){var A=function(t,e){return(A=Object.setPrototypeOf||{__proto__:[]}instanceof Array&&function(A,t){A.__proto__=t}||function(A,t){for(var e in t)t.hasOwnProperty(e)&&(A[e]=t[e])})(t,e)};return function(t,e){function n(){this.constructor=t}A(t,e),t.prototype=null===e?Object.create(e):(n.prototype=e.prototype,new n)}}(),jf=function(A){function t(t,e){var n=A.call(this)||this;return n.decodeKey=t,n.AESMode=e||"AES-ECB",n}return Nf(t,A),t.prototype.init=function(A){A.setDecryption(this.decodeKey,this.AESMode)},t.prototype.destroy=function(){console.warn("clear id",this.filterId)},t.prototype.reset=function(){},t.prototype.setConfig=function(A){},t.prototype.start=function(A,t,e){},t}(f),Gf={audio:{a3ds:!0,"ac-3":!0,"ac-4":!0,alac:!0,alaw:!0,dra1:!0,"dts+":!0,"d
+
+============================================================
+.setDecryption( in 16cfdd9dd491ec987ba227ba11b1dfa4.js, pos: 62936
+============================================================
+er.sequential:i,this.aligner.setConfig({type:n,timestampOffset:t,discontinuity:r,sequential:i})}},e.prototype.flush=function(){this.currentTransmuxer.flush()},e.prototype.destroy=function(){this.transmuxerCollection.forEach((function(e){e.destroy()}))},e.prototype.findAllStreams=function(){return this.currentTransmuxer.findAllStreams()},e.prototype.getOutput=function(e){return this.currentTransmuxer.getOutput(e)},e.prototype.setDecryption=function(e,t){void 0===e&&(e=null),this.currentTransmuxer.setDecryption(e,t)},e.prototype.push=function(e){this.currentTransmuxer.push(e)},e.prototype.endOfStream=function(e){var t=this.transmuxerCollection.get(e);t&&t.endOfStream()},e.prototype.abort=function(){this.currentTransmuxer.abort()},e.prototype.reset=function(){this.transmuxerCollection.forEach
+
+============================================================
+.setDecryption( in 16cfdd9dd491ec987ba227ba11b1dfa4.js, pos: 232438
+============================================================
+h(r){e.postMessage({type:i.a.ERROR,error:{message:r.message,stack:r.stack}})}break;case i.a.GET_OUTPUT:try{var a=n.data.config,s=t.getOutput(a),u={type:i.a.RESULT_RETURN,payload:{streams:s.streams,data:s.data}};e.postMessage(u)}catch(r){e.postMessage({type:i.a.ERROR,error:{message:r.message,stack:r.stack}})}break;case i.a.INIT:try{t.init(n.data.type,n.data.demuxer,n.data.remuxers)}catch(r){e.postMessage({type:i.a.ERROR,error:{message:r.message,stack:r.stack}})}break;case i.a.SET_DECRYPTION:try{t.setDecryption(n.data.method,n.data.key)}catch(r){e.postMessage({type:i.a.ERROR,error:{message:r.message,stack:r.stack}})}break;case i.a.RESET:try{t.reset()}catch(r){e.postMessage({type:i.a.ERROR,error:{message:r.message,stack:r.stack}})}}}))}},function(e,t,r){"use strict";r.r(t),r.d(t,"XMP",(functi
+
+============================================================
+.setDecryption( in 16cfdd9dd491ec987ba227ba11b1dfa4.js, pos: 276375
+============================================================
+e.destroyAligner=function(){this.transmuxer.destroyAligner()},e.prototype.setAligner=function(e){this.transmuxer.setAligner(e)},e.prototype.reset=function(){this.transmuxer.reset(),this.abortAll()},e.prototype.destroy=function(){this.reset(),this.transmuxer.destroyWorker()},e.prototype.init=function(e,t,r){this.transmuxer.init(e,t,r)},e.prototype.push=function(e){this.transmuxer.push(e)},e.prototype.flush=function(){this.transmuxer.flush()},e.prototype.setDecryption=function(e,t){this.transmuxer.setDecryption(e,t)},e}(),je=function(){var e=function(t,r){return(e=Object.setPrototypeOf||{__proto__:[]}instanceof Array&&function(e,t){e.__proto__=t}||function(e,t){for(var r in t)t.hasOwnProperty(r)&&(e[r]=t[r])})(t,r)};return function(t,r){function i(){this.constructor=t}e(t,r),t.prototype=null
+
+============================================================
+.setDecryption( in 16cfdd9dd491ec987ba227ba11b1dfa4.js, pos: 292294
+============================================================
+e=Ke.b.parse(i.initSegment,K.b.MP4).timescale),r.pts=d.baseMediaDecodeTime/i.timescale,i.streamNum=r.type!=w.MediaType.MIXED?1:2}if(-1!==this.targetFormat.indexOf(i.format)&&!this.config.transmuxEnabled)return e(r,i);this._transmuxer.init(r.type,i.format,this.targetFormat),this.aligner&&this._transmuxer.setAligner({type:r.type,timestampOffset:r.start,discontinuity:a,sequential:s}),(!0===r.encrypted||r.encrypted&&r.encrypted.type&&r.encrypted.type!==w.EncryptMethodType.WIDEVINE)&&this._transmuxer.setDecryption(this.decryptKey,this.decryptMethod),a&&i.initSegment?(this._transmuxer.push(i.initSegment),this._transmuxer.push(r.data)):this._transmuxer.push(r.data),r.isLastChunk&&this._transmuxer.flush();var h={fmp4:!0,separate:!0,type:r.type};r.isLastChunk&&r.type===w.MediaType.MIXED&&(h.forceAl
+
+============================================================
+.setDecryption( in 6c08ac7a09df30efd895c4fd79021e93.js, pos: 62936
+============================================================
+er.sequential:i,this.aligner.setConfig({type:n,timestampOffset:t,discontinuity:r,sequential:i})}},e.prototype.flush=function(){this.currentTransmuxer.flush()},e.prototype.destroy=function(){this.transmuxerCollection.forEach((function(e){e.destroy()}))},e.prototype.findAllStreams=function(){return this.currentTransmuxer.findAllStreams()},e.prototype.getOutput=function(e){return this.currentTransmuxer.getOutput(e)},e.prototype.setDecryption=function(e,t){void 0===e&&(e=null),this.currentTransmuxer.setDecryption(e,t)},e.prototype.push=function(e){this.currentTransmuxer.push(e)},e.prototype.endOfStream=function(e){var t=this.transmuxerCollection.get(e);t&&t.endOfStream()},e.prototype.abort=function(){this.currentTransmuxer.abort()},e.prototype.reset=function(){this.transmuxerCollection.forEach
+
+============================================================
+.setDecryption( in 6c08ac7a09df30efd895c4fd79021e93.js, pos: 232438
+============================================================
+h(r){e.postMessage({type:i.a.ERROR,error:{message:r.message,stack:r.stack}})}break;case i.a.GET_OUTPUT:try{var a=n.data.config,s=t.getOutput(a),u={type:i.a.RESULT_RETURN,payload:{streams:s.streams,data:s.data}};e.postMessage(u)}catch(r){e.postMessage({type:i.a.ERROR,error:{message:r.message,stack:r.stack}})}break;case i.a.INIT:try{t.init(n.data.type,n.data.demuxer,n.data.remuxers)}catch(r){e.postMessage({type:i.a.ERROR,error:{message:r.message,stack:r.stack}})}break;case i.a.SET_DECRYPTION:try{t.setDecryption(n.data.method,n.data.key)}catch(r){e.postMessage({type:i.a.ERROR,error:{message:r.message,stack:r.stack}})}break;case i.a.RESET:try{t.reset()}catch(r){e.postMessage({type:i.a.ERROR,error:{message:r.message,stack:r.stack}})}}}))}},function(e,t,r){"use strict";r.r(t),r.d(t,"XMP",(functi
+
+============================================================
+.setDecryption( in 6c08ac7a09df30efd895c4fd79021e93.js, pos: 276375
+============================================================
+e.destroyAligner=function(){this.transmuxer.destroyAligner()},e.prototype.setAligner=function(e){this.transmuxer.setAligner(e)},e.prototype.reset=function(){this.transmuxer.reset(),this.abortAll()},e.prototype.destroy=function(){this.reset(),this.transmuxer.destroyWorker()},e.prototype.init=function(e,t,r){this.transmuxer.init(e,t,r)},e.prototype.push=function(e){this.transmuxer.push(e)},e.prototype.flush=function(){this.transmuxer.flush()},e.prototype.setDecryption=function(e,t){this.transmuxer.setDecryption(e,t)},e}(),je=function(){var e=function(t,r){return(e=Object.setPrototypeOf||{__proto__:[]}instanceof Array&&function(e,t){e.__proto__=t}||function(e,t){for(var r in t)t.hasOwnProperty(r)&&(e[r]=t[r])})(t,r)};return function(t,r){function i(){this.constructor=t}e(t,r),t.prototype=null
+
+============================================================
+.setDecryption( in 6c08ac7a09df30efd895c4fd79021e93.js, pos: 292294
+============================================================
+e=Ke.b.parse(i.initSegment,K.b.MP4).timescale),r.pts=d.baseMediaDecodeTime/i.timescale,i.streamNum=r.type!=w.MediaType.MIXED?1:2}if(-1!==this.targetFormat.indexOf(i.format)&&!this.config.transmuxEnabled)return e(r,i);this._transmuxer.init(r.type,i.format,this.targetFormat),this.aligner&&this._transmuxer.setAligner({type:r.type,timestampOffset:r.start,discontinuity:a,sequential:s}),(!0===r.encrypted||r.encrypted&&r.encrypted.type&&r.encrypted.type!==w.EncryptMethodType.WIDEVINE)&&this._transmuxer.setDecryption(this.decryptKey,this.decryptMethod),a&&i.initSegment?(this._transmuxer.push(i.initSegment),this._transmuxer.push(r.data)):this._transmuxer.push(r.data),r.isLastChunk&&this._transmuxer.flush();var h={fmp4:!0,separate:!0,type:r.type};r.isLastChunk&&r.type===w.MediaType.MIXED&&(h.forceAl
+
+============================================================
+.setDecryption( in d7489a8b7e19d5f6fd1c670b33d41e68.js, pos: 61422
+============================================================
+er.sequential:n,this.aligner.setConfig({type:r,timestampOffset:e,discontinuity:i,sequential:n})}},t.prototype.flush=function(){this.currentTransmuxer.flush()},t.prototype.destroy=function(){this.transmuxerCollection.forEach((function(t){t.destroy()}))},t.prototype.findAllStreams=function(){return this.currentTransmuxer.findAllStreams()},t.prototype.getOutput=function(t){return this.currentTransmuxer.getOutput(t)},t.prototype.setDecryption=function(t,e){void 0===t&&(t=null),this.currentTransmuxer.setDecryption(t,e)},t.prototype.push=function(t){this.currentTransmuxer.push(t)},t.prototype.endOfStream=function(t){var e=this.transmuxerCollection.get(t);e&&e.endOfStream()},t.prototype.abort=function(){this.currentTransmuxer.abort()},t.prototype.reset=function(){this.transmuxerCollection.forEach
+
+============================================================
+.setDecryption( in d7489a8b7e19d5f6fd1c670b33d41e68.js, pos: 712283
+============================================================
+h(i){t.postMessage({type:n.a.ERROR,error:{message:i.message,stack:i.stack}})}break;case n.a.GET_OUTPUT:try{var a=r.data.config,s=e.getOutput(a),l={type:n.a.RESULT_RETURN,payload:{streams:s.streams,data:s.data}};t.postMessage(l)}catch(i){t.postMessage({type:n.a.ERROR,error:{message:i.message,stack:i.stack}})}break;case n.a.INIT:try{e.init(r.data.type,r.data.demuxer,r.data.remuxers)}catch(i){t.postMessage({type:n.a.ERROR,error:{message:i.message,stack:i.stack}})}break;case n.a.SET_DECRYPTION:try{e.setDecryption(r.data.method,r.data.key)}catch(i){t.postMessage({type:n.a.ERROR,error:{message:i.message,stack:i.stack}})}break;case n.a.RESET:try{e.reset()}catch(i){t.postMessage({type:n.a.ERROR,error:{message:i.message,stack:i.stack}})}}}))}},,,function(t,e,i){"use strict";i.r(e);var n,r,o=i(1),a=
+
+============================================================
+.setDecryption( in d7489a8b7e19d5f6fd1c670b33d41e68.js, pos: 1585617
+============================================================
+e.destroyAligner=function(){this.transmuxer.destroyAligner()},t.prototype.setAligner=function(t){this.transmuxer.setAligner(t)},t.prototype.reset=function(){this.transmuxer.reset(),this.abortAll()},t.prototype.destroy=function(){this.reset(),this.transmuxer.destroyWorker()},t.prototype.init=function(t,e,i){this.transmuxer.init(t,e,i)},t.prototype.push=function(t){this.transmuxer.push(t)},t.prototype.flush=function(){this.transmuxer.flush()},t.prototype.setDecryption=function(t,e){this.transmuxer.setDecryption(t,e)},t}(),Qd=function(){var t=function(e,i){return(t=Object.setPrototypeOf||{__proto__:[]}instanceof Array&&function(t,e){t.__proto__=e}||function(t,e){for(var i in e)e.hasOwnProperty(i)&&(t[i]=e[i])})(e,i)};return function(e,i){function n(){this.constructor=e}t(e,i),e.prototype=null
+
+============================================================
+.setDecryption( in d7489a8b7e19d5f6fd1c670b33d41e68.js, pos: 1601725
+============================================================
+itSegment,mi.ContainerFormat.MP4).timescale),i.pts=u.baseMediaDecodeTime/n.timescale,n.streamNum=i.type!=mi.MediaType.MIXED?1:2}if(-1!==this.targetFormat.indexOf(n.format)&&!this.config.transmuxEnabled)return t(i,n);this._transmuxer.init(i.type,n.format,this.targetFormat),this.aligner&&this._transmuxer.setAligner({type:i.type,timestampOffset:i.start,discontinuity:a,sequential:s}),(!0===i.encrypted||i.encrypted&&i.encrypted.type&&i.encrypted.type!==mi.EncryptMethodType.WIDEVINE)&&this._transmuxer.setDecryption(this.decryptKey,this.decryptMethod),a&&n.initSegment?(this._transmuxer.push(n.initSegment),this._transmuxer.push(i.data)):this._transmuxer.push(i.data),i.isLastChunk&&this._transmuxer.flush();var p={fmp4:!0,separate:!0,type:i.type};i.isLastChunk&&i.type===mi.MediaType.MIXED&&(p.forceA
+
+============================================================
+.setDecryption( in d7489a8b7e19d5f6fd1c670b33d41e68.js, pos: 1774250
+============================================================
+ll)},e}(mi.EventBus),gm=function(){var t=function(e,i){return(t=Object.setPrototypeOf||{__proto__:[]}instanceof Array&&function(t,e){t.__proto__=e}||function(t,e){for(var i in e)e.hasOwnProperty(i)&&(t[i]=e[i])})(e,i)};return function(e,i){function n(){this.constructor=e}t(e,i),e.prototype=null===i?Object.create(i):(n.prototype=i.prototype,new n)}}(),ym=function(t){function e(e,i){var n=t.call(this)||this;return n.decodeKey=e,n.AESMode=i||"AES-ECB",n}return gm(e,t),e.prototype.init=function(t){t.setDecryption(this.decodeKey,this.AESMode)},e.prototype.destroy=function(){console.warn("clear id",this.filterId)},e.prototype.reset=function(){},e.prototype.setConfig=function(t){},e.prototype.start=function(t,e,i){},e}(s.a),vm={audio:{a3ds:!0,"ac-3":!0,"ac-4":!0,alac:!0,alaw:!0,dra1:!0,"dts+":!0,
+
+============================================================
+.setDecryption( in f812af6a337fa60978017c591dce68a0.js, pos: 67565
+============================================================
+er.sequential:n,this.aligner.setConfig({type:r,timestampOffset:t,discontinuity:i,sequential:n})}},e.prototype.flush=function(){this.currentTransmuxer.flush()},e.prototype.destroy=function(){this.transmuxerCollection.forEach((function(e){e.destroy()}))},e.prototype.findAllStreams=function(){return this.currentTransmuxer.findAllStreams()},e.prototype.getOutput=function(e){return this.currentTransmuxer.getOutput(e)},e.prototype.setDecryption=function(e,t){void 0===e&&(e=null),this.currentTransmuxer.setDecryption(e,t)},e.prototype.push=function(e){this.currentTransmuxer.push(e)},e.prototype.endOfStream=function(e){var t=this.transmuxerCollection.get(e);t&&t.endOfStream()},e.prototype.abort=function(){this.currentTransmuxer.abort()},e.prototype.reset=function(){this.transmuxerCollection.forEach
+
+============================================================
+.setDecryption( in f812af6a337fa60978017c591dce68a0.js, pos: 237067
+============================================================
+h(i){e.postMessage({type:n.a.ERROR,error:{message:i.message,stack:i.stack}})}break;case n.a.GET_OUTPUT:try{var a=r.data.config,s=t.getOutput(a),c={type:n.a.RESULT_RETURN,payload:{streams:s.streams,data:s.data}};e.postMessage(c)}catch(i){e.postMessage({type:n.a.ERROR,error:{message:i.message,stack:i.stack}})}break;case n.a.INIT:try{t.init(r.data.type,r.data.demuxer,r.data.remuxers)}catch(i){e.postMessage({type:n.a.ERROR,error:{message:i.message,stack:i.stack}})}break;case n.a.SET_DECRYPTION:try{t.setDecryption(r.data.method,r.data.key)}catch(i){e.postMessage({type:n.a.ERROR,error:{message:i.message,stack:i.stack}})}break;case n.a.RESET:try{t.reset()}catch(i){e.postMessage({type:n.a.ERROR,error:{message:i.message,stack:i.stack}})}}}))}},function(e,t,i){"use strict";i.r(t),i.d(t,"XMP",(functi
+
+============================================================
+.setDecryption( in f812af6a337fa60978017c591dce68a0.js, pos: 281004
+============================================================
+e.destroyAligner=function(){this.transmuxer.destroyAligner()},e.prototype.setAligner=function(e){this.transmuxer.setAligner(e)},e.prototype.reset=function(){this.transmuxer.reset(),this.abortAll()},e.prototype.destroy=function(){this.reset(),this.transmuxer.destroyWorker()},e.prototype.init=function(e,t,i){this.transmuxer.init(e,t,i)},e.prototype.push=function(e){this.transmuxer.push(e)},e.prototype.flush=function(){this.transmuxer.flush()},e.prototype.setDecryption=function(e,t){this.transmuxer.setDecryption(e,t)},e}(),je=function(){var e=function(t,i){return(e=Object.setPrototypeOf||{__proto__:[]}instanceof Array&&function(e,t){e.__proto__=t}||function(e,t){for(var i in t)t.hasOwnProperty(i)&&(e[i]=t[i])})(t,i)};return function(t,i){function n(){this.constructor=t}e(t,i),t.prototype=null
+
+============================================================
+.setDecryption( in f812af6a337fa60978017c591dce68a0.js, pos: 296923
+============================================================
+e=Ge.b.parse(n.initSegment,G.b.MP4).timescale),i.pts=l.baseMediaDecodeTime/n.timescale,n.streamNum=i.type!=x.MediaType.MIXED?1:2}if(-1!==this.targetFormat.indexOf(n.format)&&!this.config.transmuxEnabled)return e(i,n);this._transmuxer.init(i.type,n.format,this.targetFormat),this.aligner&&this._transmuxer.setAligner({type:i.type,timestampOffset:i.start,discontinuity:a,sequential:s}),(!0===i.encrypted||i.encrypted&&i.encrypted.type&&i.encrypted.type!==x.EncryptMethodType.WIDEVINE)&&this._transmuxer.setDecryption(this.decryptKey,this.decryptMethod),a&&n.initSegment?(this._transmuxer.push(n.initSegment),this._transmuxer.push(i.data)):this._transmuxer.push(i.data),i.isLastChunk&&this._transmuxer.flush();var p={fmp4:!0,separate:!0,type:i.type};i.isLastChunk&&i.type===x.MediaType.MIXED&&(p.forceAl
+
+============================================================
+.setDecryption( in c9625326d7565e79dd24365cad6053e5.js, pos: 57743
+============================================================
+tial:n,this.aligner.timestampOffset=t,e&&this.aligner.discontinuity(),this.aligner.sequential=n}},A.prototype.flush=function(){this.currentTransmuxer.flush()},A.prototype.destroy=function(){this.transmuxerCollection.forEach((function(A){A.destroy()}))},A.prototype.findAllStreams=function(){return this.currentTransmuxer.findAllStreams()},A.prototype.getOutput=function(A){return this.currentTransmuxer.getOutput(A)},A.prototype.setDecryption=function(A,t){void 0===A&&(A=null),this.currentTransmuxer.setDecryption(A,t)},A.prototype.push=function(A){this.currentTransmuxer.push(A)},A.prototype.endOfStream=function(){this.currentTransmuxer.endOfStream()},A.prototype.abort=function(){this.currentTransmuxer.abort()},A.prototype.reset=function(){this.transmuxerCollection.forEach((function(A){A.reset(
+
+============================================================
+.setDecryption( in c9625326d7565e79dd24365cad6053e5.js, pos: 473604
+============================================================
+h(e){A.postMessage({type:n.a.ERROR,error:{message:e.message,stack:e.stack}})}break;case n.a.GET_OUTPUT:try{var o=i.data.config,a=t.getOutput(o),s={type:n.a.RESULT_RETURN,payload:{streams:a.streams,data:a.data}};A.postMessage(s)}catch(e){A.postMessage({type:n.a.ERROR,error:{message:e.message,stack:e.stack}})}break;case n.a.INIT:try{t.init(i.data.type,i.data.demuxer,i.data.remuxers)}catch(e){A.postMessage({type:n.a.ERROR,error:{message:e.message,stack:e.stack}})}break;case n.a.SET_DECRYPTION:try{t.setDecryption(i.data.method,i.data.key)}catch(e){A.postMessage({type:n.a.ERROR,error:{message:e.message,stack:e.stack}})}break;case n.a.RESET:try{t.reset()}catch(e){A.postMessage({type:n.a.ERROR,error:{message:e.message,stack:e.stack}})}}}))}},function(A,t,e){"use strict";var n,i,r,o,a;e.r(t),funct
+
+============================================================
+.setDecryption( in c9625326d7565e79dd24365cad6053e5.js, pos: 2415910
+============================================================
+e.destroyAligner=function(){this.transmuxer.destroyAligner()},A.prototype.setAligner=function(A){this.transmuxer.setAligner(A)},A.prototype.reset=function(){this.transmuxer.reset(),this.abortAll()},A.prototype.destroy=function(){this.reset(),this.transmuxer.destroyWorker()},A.prototype.init=function(A,t,e){this.transmuxer.init(A,t,e)},A.prototype.push=function(A){this.transmuxer.push(A)},A.prototype.flush=function(){this.transmuxer.flush()},A.prototype.setDecryption=function(A,t){this.transmuxer.setDecryption(A,t)},A}(),FD=function(){var A=function(t,e){return(A=Object.setPrototypeOf||{__proto__:[]}instanceof Array&&function(A,t){A.__proto__=t}||function(A,t){for(var e in t)t.hasOwnProperty(e)&&(A[e]=t[e])})(t,e)};return function(t,e){function n(){this.constructor=t}A(t,e),t.prototype=null
+
+============================================================
+.setDecryption( in c9625326d7565e79dd24365cad6053e5.js, pos: 2431838
+============================================================
+b.parse(n.initSegment,It.ContainerFormat.MP4).timescale),e.pts=D.baseMediaDecodeTime/n.timescale,n.streamNum=e.type!=It.MediaType.MIXED?1:2}if(-1!==this.targetFormat.indexOf(n.format)&&!this.config.transmuxEnabled)return A(e,n);this._transmuxer.init(e.type,n.format,this.targetFormat),this.aligner&&this._transmuxer.setAligner({timestampOffset:e.start,discontinuity:o,sequential:a}),(!0===e.encrypted||e.encrypted&&e.encrypted.type&&e.encrypted.type!==It.EncryptMethodType.WIDEVINE)&&this._transmuxer.setDecryption(this.decryptKey,this.decryptMethod),o&&n.initSegment?(this._transmuxer.push(n.initSegment),this._transmuxer.push(e.data)):this._transmuxer.push(e.data),e.isLastChunk&&this._transmuxer.flush();var P={fmp4:!0,separate:!0,type:e.type};e.isLastChunk&&e.type===It.MediaType.MIXED&&(P.forceA
+
+============================================================
+.setDecryption( in c9625326d7565e79dd24365cad6053e5.js, pos: 2593872
+============================================================
+ll)},t}(It.EventBus),GB=function(){var A=function(t,e){return(A=Object.setPrototypeOf||{__proto__:[]}instanceof Array&&function(A,t){A.__proto__=t}||function(A,t){for(var e in t)t.hasOwnProperty(e)&&(A[e]=t[e])})(t,e)};return function(t,e){function n(){this.constructor=t}A(t,e),t.prototype=null===e?Object.create(e):(n.prototype=e.prototype,new n)}}(),YB=function(A){function t(t,e){var n=A.call(this)||this;return n.decodeKey=t,n.AESMode=e||"AES-ECB",n}return GB(t,A),t.prototype.init=function(A){A.setDecryption(this.decodeKey,this.AESMode)},t.prototype.destroy=function(){console.warn("clear id",this.filterId)},t.prototype.reset=function(){},t.prototype.setConfig=function(A){},t.prototype.start=function(A,t,e){},t}(f),KB={audio:{a3ds:!0,"ac-3":!0,"ac-4":!0,alac:!0,alaw:!0,dra1:!0,"dts+":!0,"d
+
+============================================================
+.setDecryption( in e2caa9dc350868d876cc18fa33ffd29e.js, pos: 57206
+============================================================
+tial:i,this.aligner.timestampOffset=t,r&&this.aligner.discontinuity(),this.aligner.sequential=i}},e.prototype.flush=function(){this.currentTransmuxer.flush()},e.prototype.destroy=function(){this.transmuxerCollection.forEach((function(e){e.destroy()}))},e.prototype.findAllStreams=function(){return this.currentTransmuxer.findAllStreams()},e.prototype.getOutput=function(e){return this.currentTransmuxer.getOutput(e)},e.prototype.setDecryption=function(e,t){void 0===e&&(e=null),this.currentTransmuxer.setDecryption(e,t)},e.prototype.push=function(e){this.currentTransmuxer.push(e)},e.prototype.endOfStream=function(){this.currentTransmuxer.endOfStream()},e.prototype.abort=function(){this.currentTransmuxer.abort()},e.prototype.reset=function(){this.transmuxerCollection.forEach((function(e){e.reset(
+
+============================================================
+.setDecryption( in e2caa9dc350868d876cc18fa33ffd29e.js, pos: 441240
+============================================================
+e.prototype.initAligner=function(){this.transmuxer.initAligner()},e.prototype.setAligner=function(e){this.transmuxer.setAligner(e)},e.prototype.reset=function(){this.transmuxer.reset(),this.abortAll()},e.prototype.destroy=function(){this.reset(),this.transmuxer.destroyWorker()},e.prototype.init=function(e,t){this.transmuxer.init(e,t)},e.prototype.push=function(e){this.transmuxer.push(e)},e.prototype.flush=function(){this.transmuxer.flush()},e.prototype.setDecryption=function(e,t){this.transmuxer.setDecryption(e,t)},e}();t.TransmuxerController=c},function(e,t,r){"use strict";var i,n=this&&this.__extends||(i=function(e,t){return(i=Object.setPrototypeOf||{__proto__:[]}instanceof Array&&function(e,t){e.__proto__=t}||function(e,t){for(var r in t)t.hasOwnProperty(r)&&(e[r]=t[r])})(e,t)},function
+
+============================================================
+.setDecryption( in e2caa9dc350868d876cc18fa33ffd29e.js, pos: 448440
+============================================================
+reak;case i.TransmuxerAction.GET_OUTPUT:try{var a=n.data.config,s=t.getOutput(a),u={type:i.TransmuxerAction.RESULT_RETURN,payload:{streams:s.streams,data:s.data}};e.postMessage(u)}catch(r){e.postMessage({type:i.TransmuxerAction.ERROR,error:{message:r.message,stack:r.stack}})}break;case i.TransmuxerAction.INIT:try{t.init(n.data.demuxer,n.data.remuxers)}catch(r){e.postMessage({type:i.TransmuxerAction.ERROR,error:{message:r.message,stack:r.stack}})}break;case i.TransmuxerAction.SET_DECRYPTION:try{t.setDecryption(n.data.method,n.data.key)}catch(r){e.postMessage({type:i.TransmuxerAction.ERROR,error:{message:r.message,stack:r.stack}})}break;case i.TransmuxerAction.RESET:try{t.reset()}catch(r){e.postMessage({type:i.TransmuxerAction.ERROR,error:{message:r.message,stack:r.stack}})}}}))}},function(e
+
+============================================================
+.setDecryption( in e2caa9dc350868d876cc18fa33ffd29e.js, pos: 546770
+============================================================
+h(r){e.postMessage({type:i.a.ERROR,error:{message:r.message,stack:r.stack}})}break;case i.a.GET_OUTPUT:try{var a=n.data.config,s=t.getOutput(a),u={type:i.a.RESULT_RETURN,payload:{streams:s.streams,data:s.data}};e.postMessage(u)}catch(r){e.postMessage({type:i.a.ERROR,error:{message:r.message,stack:r.stack}})}break;case i.a.INIT:try{t.init(n.data.type,n.data.demuxer,n.data.remuxers)}catch(r){e.postMessage({type:i.a.ERROR,error:{message:r.message,stack:r.stack}})}break;case i.a.SET_DECRYPTION:try{t.setDecryption(n.data.method,n.data.key)}catch(r){e.postMessage({type:i.a.ERROR,error:{message:r.message,stack:r.stack}})}break;case i.a.RESET:try{t.reset()}catch(r){e.postMessage({type:i.a.ERROR,error:{message:r.message,stack:r.stack}})}}}))}},function(e,t){"undefined"==typeof window&&(window={ctrl
+
+============================================================
+.setDecryption( in e2caa9dc350868d876cc18fa33ffd29e.js, pos: 613061
+============================================================
+e.destroyAligner=function(){this.transmuxer.destroyAligner()},e.prototype.setAligner=function(e){this.transmuxer.setAligner(e)},e.prototype.reset=function(){this.transmuxer.reset(),this.abortAll()},e.prototype.destroy=function(){this.reset(),this.transmuxer.destroyWorker()},e.prototype.init=function(e,t,r){this.transmuxer.init(e,t,r)},e.prototype.push=function(e){this.transmuxer.push(e)},e.prototype.flush=function(){this.transmuxer.flush()},e.prototype.setDecryption=function(e,t){this.transmuxer.setDecryption(e,t)},e}(),Ue=function(){var e=function(t,r){return(e=Object.setPrototypeOf||{__proto__:[]}instanceof Array&&function(e,t){e.__proto__=t}||function(e,t){for(var r in t)t.hasOwnProperty(r)&&(e[r]=t[r])})(t,r)};return function(t,r){function i(){this.constructor=t}e(t,r),t.prototype=null
+
+============================================================
+.setDecryption( in e2caa9dc350868d876cc18fa33ffd29e.js, pos: 628941
+============================================================
+qe.b.parse(i.initSegment,L.ContainerFormat.MP4).timescale),r.pts=l.baseMediaDecodeTime/i.timescale,i.streamNum=r.type!=L.MediaType.MIXED?1:2}if(-1!==this.targetFormat.indexOf(i.format)&&!this.config.transmuxEnabled)return e(r,i);this._transmuxer.init(r.type,i.format,this.targetFormat),this.aligner&&this._transmuxer.setAligner({timestampOffset:r.start,discontinuity:a,sequential:s}),(!0===r.encrypted||r.encrypted&&r.encrypted.type&&r.encrypted.type!==L.EncryptMethodType.WIDEVINE)&&this._transmuxer.setDecryption(this.decryptKey,this.decryptMethod),a&&i.initSegment?(this._transmuxer.push(i.initSegment),this._transmuxer.push(r.data)):this._transmuxer.push(r.data),r.isLastChunk&&this._transmuxer.flush();var p={fmp4:!0,separate:!0,type:r.type};r.isLastChunk&&r.type===L.MediaType.MIXED&&(p.forceAl

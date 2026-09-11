@@ -1,0 +1,18 @@
+feat: ykv2mp4 优酷 YKV 转 MP4 工具包（完整资产）
+
+核心产出:
+- ykv2mp4_toolkit/: Python 源码包（解析+解密+合流）
+- dist/: 独立 exe 便携包（零依赖，含 ffmpeg）
+- ykv2mp4_portable.zip: 绿色便携包（换电脑即用）
+
+技术要点:
+- copyrightDRM 解密：part1 暴力枚举 + AES-ECB PES 解密
+- YKV 解析：JSON 尾解析 + TS 分段提取（跳过 34 字节段头）
+- FFmpeg 合流：TS → MP4（HEVC + AAC）
+
+参考资料:
+- B 站视频评论区 DRM 方法分析
+- YKV-Cracker 项目 Python 源码
+- 两个参考压缩包（ykv2mp4 / ykv转mp4 8.1）
+
+实测：87/87 集沧元图全部转换成功（18.3 GB）

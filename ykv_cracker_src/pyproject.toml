@@ -1,0 +1,25 @@
+[project]
+name = "ykv-cracker"
+version = "0.2.0"
+description = "YouKu YKV video file decryption and conversion tool"
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.11"
+dependencies = [
+    "pycryptodome>=3.20.0",
+]
+
+[tool.setuptools.packages.find]
+include = ["ykv_cracker*"]
+
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project.scripts]
+ykv-cracker = "ykv_cracker.cli:main"
+
+[dependency-groups]
+dev = [
+    "pytest>=9.1.1",
+]

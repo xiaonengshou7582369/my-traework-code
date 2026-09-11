@@ -1,0 +1,18 @@
+Video: 全网首发，优酷新版本ykv转mp4，非kux，附加分析视频文件结构。含源码。
+BV: BV1Gt3nevEQp  aid: 112672326617089  total replies: 75
+Fetched: 3 comments
+======================================================================
+
+[8赞] RCEAGTY: https://github.com/Circuitandbzgty/youkuvideo_ykv_unpacker
+因为半夜家长睡觉了，不敢大声说话，所以可能发生听不清的情况。[doge]
+  L Smile鼓手: 这啥，打不开
+  L 云的彼岸918: 回复 @circuitbzandgty : 已经私信你了
+  L RCEAGTY: 回复 @云的彼岸918 :没看到私信
+[5赞] imaginary_number: 我加入了一些自动化，可以批量合成视频[doge]BV1uWhfenEAe
+  L imaginary_number: 回复 @正式了吗 :使用说明你是一字不看，初中信息课你是一节没学，拿着东西不会用你是恼羞成怒
+  L 即尼太每: 感谢分享
+  L 司空嘉实: 回复 @imaginary_number :戾气都挺大，一个不知道自己蠢，一个不知道自己发的叫傻瓜式操作[呲牙][呲牙][呲牙]
+[3赞] 真冒雨: 这两天让deepseek接了ida mcp分析了整个独播和付费解密的流程，已经成功解密了，具体实现代码：
+https://github.com/RainVenturer/YKV-Cracker
+用了rust和python实现，有需要的可以试一试
+  L RCEAGTY: 大家刷到的用这位大佬的吧，我这个只能搞普通视频，付费搞不定[doge]

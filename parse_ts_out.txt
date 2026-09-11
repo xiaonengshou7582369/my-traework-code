@@ -1,0 +1,30 @@
+﻿
+=== PAT ===
+  table_id=0x00 section_len=13
+  Program 1 -> PMT PID 0x1000
+
+=== PMT (PID 0x1000) ===
+  table_id=0x02 section_len=29
+  PCR PID: 0x0100
+  Program info length: 0
+  Stream: H.265 Video PID=0x0100 info_len=0
+  Stream: AAC Audio PID=0x0101 info_len=6
+    Tag 0x0a len=4: 756e6400
+  Stream: Type 0xac PID=0x0c75 info_len=1023
+    Tag 0xff len=255: ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+python.exe : Traceback (most recent call last):
+At line:15 char:2232
++ ... pgrep\bin'; & "C:\Users\Administrator\.workbuddy\binaries\python\vers ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Traceback (most recent call last)::String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  File "C:\Users\Administrator\iCloudDrive\Traework云仓库\6aa2615da516df5d0a1843ba\parse_ts_proper.py", line 130, in <modu
+le>
+    pids, v_pids, a_pids = parse_ts_packets(data, 500)
+                           ~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "C:\Users\Administrator\iCloudDrive\Traework云仓库\6aa2615da516df5d0a1843ba\parse_ts_proper.py", line 121, in parse
+_ts_packets
+    tag = section[k]
+          ~~~~~~~^^^
+IndexError: index out of range

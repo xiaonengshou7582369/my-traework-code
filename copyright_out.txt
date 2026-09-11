@@ -1,0 +1,579 @@
+﻿=== Searching for copyright_key ===
+Found at pos 15687:
+           "fps": 25,
+                "hls_duration": 1415560,
+                "frameAlign": 2,
+                "firstSliceSequenceNum": 0,
+                "hls_subtitle": "default",
+                "copyright_key": "0WZJpdEknsuQl4OoWRlTWSuffXj1MlrSry7rj7M+vQc=",
+                "subtitle_lang": "default",
+                "hls_size": 74625660,
+                "hls_oss_bucket": 2,
+                "startTime": "2.800000",
+                "firstSliceSize": 192136,
+                "hls_logo": "none"
+
+=== All key-related fields ===
+  'copyright' at 6099: ...lt"
+          },
+          "show": {
+            "copyright": "1",
+            "show_thumburl": "http://m.ykimg.com/050B00006A753A9E140C6E144967DC50",...
+  'copyright' at 13453: ..."ctype": "媒资",
+            "drm_type": "copyrightDRM",
+            "close_ceremony_video": false,
+            "smart_tile": 0,
+            "...
+  'copyright' at 15687: ..."hls_subtitle": "default",
+                "copyright_key": "0WZJpdEknsuQl4OoWRlTWSuffXj1MlrSry7rj7M+vQc=",
+                "subtitle_lang": "de...
+  'copyright' at 16409: ...fer_mode_org": "http",
+              "drm_type": "copyrightDRM",
+              "stream_type": "flvhd",
+              "width": 640,
+              "h265...
+  'copyright' at 18359: ..."hls_subtitle": "default",
+                "copyright_key": "0WZJpdEknsuQl4OoWRlTWSuffXj1MlrSry7rj7M+vQc=",
+                "subtitle_lang": "de...
+  'copyright' at 19081: ...fer_mode_org": "http",
+              "drm_type": "copyrightDRM",
+              "stream_type": "mp5sd",
+              "width": 640,
+              "h265...
+  'copyright' at 21031: ..."hls_subtitle": "default",
+                "copyright_key": "0WZJpdEknsuQl4OoWRlTWSuffXj1MlrSry7rj7M+vQc=",
+                "subtitle_lang": "de...
+  'copyright' at 21755: ...fer_mode_org": "http",
+              "drm_type": "copyrightDRM",
+              "stream_type": "mp4hd3",
+              "width": 1920,
+              "h2...
+  'copyright' at 23710: ..."hls_subtitle": "default",
+                "copyright_key": "0WZJpdEknsuQl4OoWRlTWSuffXj1MlrSry7rj7M+vQc=",
+                "subtitle_lang": "de...
+  'copyright' at 24434: ...fer_mode_org": "http",
+              "drm_type": "copyrightDRM",
+              "stream_type": "mp5hd3",
+              "width": 1920,
+              "h2...
+  'copyright' at 26123: ..."hls_subtitle": "default",
+                "copyright_key": "0WZJpdEknsuQl4OoWRlTWSuffXj1MlrSry7rj7M+vQc=",
+                "subtitle_lang": "de...
+  'copyright' at 26841: ...fer_mode_org": "http",
+              "drm_type": "copyrightDRM",
+              "stream_type": "mp5hd4",
+              "width": 3840,
+              "h2...
+  'copyright' at 28795: ..."hls_subtitle": "default",
+                "copyright_key": "0WZJpdEknsuQl4OoWRlTWSuffXj1MlrSry7rj7M+vQc=",
+                "subtitle_lang": "de...
+  'copyright' at 29519: ...fer_mode_org": "http",
+              "drm_type": "copyrightDRM",
+              "stream_type": "mp4hd",
+              "width": 864,
+              "h265...
+  'copyright' at 31469: ..."hls_subtitle": "default",
+                "copyright_key": "0WZJpdEknsuQl4OoWRlTWSuffXj1MlrSry7rj7M+vQc=",
+                "subtitle_lang": "de...
+  'copyright' at 32191: ...fer_mode_org": "http",
+              "drm_type": "copyrightDRM",
+              "stream_type": "mp5hd",
+              "width": 864,
+              "h265...
+  'copyright' at 34141: ..."hls_subtitle": "default",
+                "copyright_key": "0WZJpdEknsuQl4OoWRlTWSuffXj1MlrSry7rj7M+vQc=",
+                "subtitle_lang": "de...
+  'copyright' at 34865: ...fer_mode_org": "http",
+              "drm_type": "copyrightDRM",
+              "stream_type": "mp5hd2",
+              "width": 1280,
+              "h2...
+  'copyright' at 36818: ..."hls_subtitle": "default",
+                "copyright_key": "0WZJpdEknsuQl4OoWRlTWSuffXj1MlrSry7rj7M+vQc=",
+                "subtitle_lang": "de...
+  'copyright' at 37542: ...fer_mode_org": "http",
+              "drm_type": "copyrightDRM",
+              "stream_type": "mp4hd2",
+              "width": 1280,
+              "h2...
+  'key' at 15697: ..._subtitle": "default",
+                "copyright_key": "0WZJpdEknsuQl4OoWRlTWSuffXj1MlrSry7rj7M+vQc=",
+                "subtitle_lang": "default",...
+  'key' at 17042: ...EQAAACkDAEWcLby4myp%2B&vid=XNTk3MzA5NzgzMg%3D%3D&vkey=B94a23e78c709a5151ac5b4a5adf26426&s=adaec02f09f9469ab8d8&iv=1&eo=0&t=aa836386749dd20&cug=1&fms=e...
+  'key' at 17343: ...u151&si=727&dst=1&sm=1&operate_type=1&hotvt=1&app_key=24679788&app_ver=9.5.2.1001",
+              "height": 360
+            },
+            {...
+  'key' at 18369: ..._subtitle": "default",
+                "copyright_key": "0WZJpdEknsuQl4OoWRlTWSuffXj1MlrSry7rj7M+vQc=",
+                "subtitle_lang": "default",...
+  'key' at 19713: ...EQAAACkDAEWcLby4myp%2B&vid=XNTk3MzA5NzgzMg%3D%3D&vkey=Bd4a0b44a12820dc7ee047645292ef457&s=adaec02f09f9469ab8d8&iv=1&eo=0&t=aa836386749dd20&cug=1&fms=2...
+  'key' at 20014: ...u151&si=727&dst=1&sm=1&operate_type=1&hotvt=1&app_key=24679788&app_ver=9.5.2.1001",
+              "height": 360
+            },
+            {...
+  'key' at 21041: ..._subtitle": "default",
+                "copyright_key": "0WZJpdEknsuQl4OoWRlTWSuffXj1MlrSry7rj7M+vQc=",
+                "subtitle_lang": "default",...
+  'key' at 22390: ...EQAAACkDAEWcLby4myp%2B&vid=XNTk3MzA5NzgzMg%3D%3D&vkey=B5a052189daea189539fad0392a00b660&s=adaec02f09f9469ab8d8&iv=1&eo=0&t=aa836386749dd20&cug=1&fms=0...
+  'key' at 22692: ...u151&si=727&dst=1&sm=1&operate_type=1&hotvt=1&app_key=24679788&app_ver=9.5.2.1001",
+              "height": 1080
+            },
+            {...
+  'key' at 23720: ..._subtitle": "default",
+                "copyright_key": "0WZJpdEknsuQl4OoWRlTWSuffXj1MlrSry7rj7M+vQc=",
+                "subtitle_lang": "default",...
+  'key' at 25068: ...EQAAACkDAEWcLby4myp%2B&vid=XNTk3MzA5NzgzMg%3D%3D&vkey=B2abac6c4297601ce0e9362ee697e6a20&s=adaec02f09f9469ab8d8&iv=1&eo=0&t=aa836386749dd20&cug=1&fms=4...
+  'key' at 25370: ...u151&si=727&dst=1&sm=1&operate_type=1&hotvt=1&app_key=24679788&app_ver=9.5.2.1001",
+              "height": 1080
+            },
+            {...
+  'key' at 26133: ..._subtitle": "default",
+                "copyright_key": "0WZJpdEknsuQl4OoWRlTWSuffXj1MlrSry7rj7M+vQc=",
+                "subtitle_lang": "default",...
+  'key' at 27475: ...EQAAACkDAEWcLby4myp%2B&vid=XNTk3MzA5NzgzMg%3D%3D&vkey=Bbf9082dc3c14087053c9f00bb3dff6e0&s=adaec02f09f9469ab8d8&iv=1&eo=0&t=aa836386749dd20&cug=1&fms=8...
+  'key' at 27777: ...u151&si=727&dst=1&sm=1&operate_type=1&hotvt=1&app_key=24679788&app_ver=9.5.2.1001",
+              "height": 2160
+            },
+            {...
+  'key' at 28805: ..._subtitle": "default",
+                "copyright_key": "0WZJpdEknsuQl4OoWRlTWSuffXj1MlrSry7rj7M+vQc=",
+                "subtitle_lang": "default",...
+  'key' at 30152: ...EQAAACkDAEWcLby4myp%2B&vid=XNTk3MzA5NzgzMg%3D%3D&vkey=Bf8a39509f9b34d89ef50322e6103da06&s=adaec02f09f9469ab8d8&iv=1&eo=0&t=aa836386749dd20&cug=1&fms=8...
+  'key' at 30453: ...u151&si=727&dst=1&sm=1&operate_type=1&hotvt=1&app_key=24679788&app_ver=9.5.2.1001",
+              "height": 486
+            },
+            {...
+  'key' at 31479: ..._subtitle": "default",
+                "copyright_key": "0WZJpdEknsuQl4OoWRlTWSuffXj1MlrSry7rj7M+vQc=",
+                "subtitle_lang": "default",...
+  'key' at 32823: ...EQAAACkDAEWcLby4myp%2B&vid=XNTk3MzA5NzgzMg%3D%3D&vkey=B7b7cd21c4f7451824950917cb30ec817&s=adaec02f09f9469ab8d8&iv=1&eo=0&t=aa836386749dd20&cug=1&fms=3...
+  'key' at 33124: ...u151&si=727&dst=1&sm=1&operate_type=1&hotvt=1&app_key=24679788&app_ver=9.5.2.1001",
+              "height": 486
+            },
+            {...
+  'key' at 34151: ..._subtitle": "default",
+                "copyright_key": "0WZJpdEknsuQl4OoWRlTWSuffXj1MlrSry7rj7M+vQc=",
+                "subtitle_lang": "default",...
+  'key' at 35499: ...EQAAACkDAEWcLby4myp%2B&vid=XNTk3MzA5NzgzMg%3D%3D&vkey=Bd4beed876d8950d430541a177e91936d&s=adaec02f09f9469ab8d8&iv=1&eo=0&t=aa836386749dd20&cug=1&fms=e...
+  'key' at 35801: ...u151&si=727&dst=1&sm=1&operate_type=1&hotvt=1&app_key=24679788&app_ver=9.5.2.1001",
+              "height": 720
+            },
+            {...
+  'key' at 36828: ..._subtitle": "default",
+                "copyright_key": "0WZJpdEknsuQl4OoWRlTWSuffXj1MlrSry7rj7M+vQc=",
+                "subtitle_lang": "default",...
+  'key' at 38177: ...EQAAACkDAEWcLby4myp%2B&vid=XNTk3MzA5NzgzMg%3D%3D&vkey=Be10c9c17df96aa71a4ffcd031fb8c326&s=adaec02f09f9469ab8d8&iv=1&eo=0&t=aa836386749dd20&cug=1&fms=b...
+  'key' at 38479: ...u151&si=727&dst=1&sm=1&operate_type=1&hotvt=1&app_key=24679788&app_ver=9.5.2.1001",
+              "height": 720
+            }
+          ],
+          "...
+  'drm' at 2911: ..."has_rare_character": false,
+            "dynamic_drm": false,
+            "screen_projection_limited": false,
+            "yi_plus": "false",...
+  'drm' at 13441: ...ags": [],
+            "ctype": "媒资",
+            "drm_type": "copyrightDRM",
+            "close_ceremony_video": false,
+            "smart_tile": 0,...
+  'drm' at 16397: ..."transfer_mode_org": "http",
+              "drm_type": "copyrightDRM",
+              "stream_type": "flvhd",
+              "width": 640,...
+  'drm' at 19069: ..."transfer_mode_org": "http",
+              "drm_type": "copyrightDRM",
+              "stream_type": "mp5sd",
+              "width": 640,...
+  'drm' at 21743: ..."transfer_mode_org": "http",
+              "drm_type": "copyrightDRM",
+              "stream_type": "mp4hd3",
+              "width": 1920,...
+  'drm' at 24422: ..."transfer_mode_org": "http",
+              "drm_type": "copyrightDRM",
+              "stream_type": "mp5hd3",
+              "width": 1920,...
+  'drm' at 26829: ..."transfer_mode_org": "http",
+              "drm_type": "copyrightDRM",
+              "stream_type": "mp5hd4",
+              "width": 3840,...
+  'drm' at 29507: ..."transfer_mode_org": "http",
+              "drm_type": "copyrightDRM",
+              "stream_type": "mp4hd",
+              "width": 864,...
+  'drm' at 32179: ..."transfer_mode_org": "http",
+              "drm_type": "copyrightDRM",
+              "stream_type": "mp5hd",
+              "width": 864,...
+  'drm' at 34853: ..."transfer_mode_org": "http",
+              "drm_type": "copyrightDRM",
+              "stream_type": "mp5hd2",
+              "width": 1280,...
+  'drm' at 37530: ..."transfer_mode_org": "http",
+              "drm_type": "copyrightDRM",
+              "stream_type": "mp4hd2",
+              "width": 1280,...
+  'DRM' at 13462: ..."ctype": "媒资",
+            "drm_type": "copyrightDRM",
+            "close_ceremony_video": false,
+            "smart_tile": 0,
+            "videoid_p...
+  'DRM' at 16418: ...org": "http",
+              "drm_type": "copyrightDRM",
+              "stream_type": "flvhd",
+              "width": 640,
+              "h265": false,...
+  'DRM' at 19090: ...org": "http",
+              "drm_type": "copyrightDRM",
+              "stream_type": "mp5sd",
+              "width": 640,
+              "h265": true,...
+  'DRM' at 21764: ...org": "http",
+              "drm_type": "copyrightDRM",
+              "stream_type": "mp4hd3",
+              "width": 1920,
+              "h265": fals...
+  'DRM' at 24443: ...org": "http",
+              "drm_type": "copyrightDRM",
+              "stream_type": "mp5hd3",
+              "width": 1920,
+              "h265": true...
+  'DRM' at 26850: ...org": "http",
+              "drm_type": "copyrightDRM",
+              "stream_type": "mp5hd4",
+              "width": 3840,
+              "h265": true...
+  'DRM' at 29528: ...org": "http",
+              "drm_type": "copyrightDRM",
+              "stream_type": "mp4hd",
+              "width": 864,
+              "h265": false,...
+  'DRM' at 32200: ...org": "http",
+              "drm_type": "copyrightDRM",
+              "stream_type": "mp5hd",
+              "width": 864,
+              "h265": true,...
+  'DRM' at 34874: ...org": "http",
+              "drm_type": "copyrightDRM",
+              "stream_type": "mp5hd2",
+              "width": 1280,
+              "h265": true...
+  'DRM' at 37551: ...org": "http",
+              "drm_type": "copyrightDRM",
+              "stream_type": "mp4hd2",
+              "width": 1280,
+              "h265": fals...
+  'encrypt' at 14906: ..."milliseconds_video": 1415560,
+              "encryptR_server": "rIsBBcYjaN88Fnj00PlLGQ==",
+              "segs": [
+                {...
+  'encrypt' at 17578: ..."milliseconds_video": 1415560,
+              "encryptR_server": "rIsBBcYjaN88Fnj00PlLGQ==",
+              "segs": [
+                {...
+  'encrypt' at 20249: ..."milliseconds_video": 1415560,
+              "encryptR_server": "rIsBBcYjaN88Fnj00PlLGQ==",
+              "segs": [
+                {...
+  'encrypt' at 22928: ..."milliseconds_video": 1415560,
+              "encryptR_server": "rIsBBcYjaN88Fnj00PlLGQ==",
+              "segs": [
+                {...
+  'encrypt' at 25606: ..."milliseconds_video": 1415560,
+              "encryptR_server": "rIsBBcYjaN88Fnj00PlLGQ==",
+              "segs": [
+                {...
+  'encrypt' at 28013: ..."milliseconds_video": 1415560,
+              "encryptR_server": "rIsBBcYjaN88Fnj00PlLGQ==",
+              "segs": [
+                {...
+  'encrypt' at 30688: ..."milliseconds_video": 1415560,
+              "encryptR_server": "rIsBBcYjaN88Fnj00PlLGQ==",
+              "segs": [
+                {...
+  'encrypt' at 33359: ..."milliseconds_video": 1415560,
+              "encryptR_server": "rIsBBcYjaN88Fnj00PlLGQ==",
+              "segs": [
+                {...
+  'encrypt' at 36036: ..."milliseconds_video": 1415560,
+              "encryptR_server": "rIsBBcYjaN88Fnj00PlLGQ==",
+              "segs": [
+                {...
+  'license' at 7121: ..."client_close_flags": [
+              "no_license_num",
+              "display_story_point"
+            ],
+            "episode_total": 129,...
+
+=== Stream configuration ===
+
+Stream 0:
+  keys: ['audio_lang', 'milliseconds_audio', 'milliseconds_video', 'encryptR_server', 'segs', 'streamLang', 'stream_ext', 'dolbyEffect', 'size', 'subtitle_lang', 'media_type', 'sourceAuidoEffect', 'transfer_mode_org', 'drm_type', 'stream_type', 'width', 'h265', 'logo', 'dof', 'h266', 'offlineImax', 'm3u8_url', 'height']
+  audio_lang: default
+  milliseconds_audio: 1415560
+  milliseconds_video: 1415560
+  encryptR_server: rIsBBcYjaN88Fnj00PlLGQ==
+  segs: [1 items]
+    first item keys: ['size', 'total_milliseconds_video', 'total_milliseconds_audio', 'fileid']
+      size: 74625660
+      total_milliseconds_video: 1415560
+      total_milliseconds_audio: 1415560
+      fileid: oss://yk-flv-sh/03000500006A55FD396C6783DA7B3CAB0AC713-5419-4AE5-B226-AE41A847DBF1.m3u8
+  streamLang: default
+  dolbyEffect: False
+  size: 74625660
+  subtitle_lang: default
+  media_type: standard
+  sourceAuidoEffect: False
+  transfer_mode_org: http
+  drm_type: copyrightDRM
+  stream_type: flvhd
+  width: 640
+  h265: False
+  logo: none
+  dof: False
+  h266: False
+  offlineImax: False
+  m3u8_url: http://valipl10.cp31.ott.cibntv.net/67744D5447531716BF9645D83/03000500006A55FD396C6783DA7B3CAB0AC713-5419-4AE5-B226-AE41A847DBF1.m3u8?ccode=03010203&duration=1415&expire=18000&psid=82c096e18960863cbd4a8fd479a364d341346&ups_client_netip=240ex390xf20x6150x1deex8a77xeb05x4236&ups_ts=1789005919&ups_userid=1572265536&utid=ZzscEQAAACkDAEWcLby4myp%2B&vid=XNTk3MzA5NzgzMg%3D%3D&vkey=B94a23e78c709a5151ac5b4a5adf26426&s=adaec02f09f9469ab8d8&iv=1&eo=0&t=aa836386749dd20&cug=1&fms=e512f44cb1460070&tr=1415&le=49ea8495e1c8506f21a28935b231b6df&ckt=5&m_onoff=0&rid=200000000E30106FF7DA66031EB704BDBE3226A802000000&type=flvhdv3&bc=2&dre=u151&si=727&dst=1&sm=1&operate_type=1&hotvt=1&app_key=24679788&app_ver=9.5.2.1001
+  height: 360
+
+Stream 1:
+  keys: ['audio_lang', 'milliseconds_audio', 'milliseconds_video', 'encryptR_server', 'segs', 'streamLang', 'stream_ext', 'dolbyEffect', 'size', 'subtitle_lang', 'media_type', 'sourceAuidoEffect', 'transfer_mode_org', 'drm_type', 'stream_type', 'width', 'h265', 'logo', 'dof', 'h266', 'offlineImax', 'm3u8_url', 'height']
+  audio_lang: default
+  milliseconds_audio: 1415560
+  milliseconds_video: 1415560
+  encryptR_server: rIsBBcYjaN88Fnj00PlLGQ==
+  segs: [1 items]
+    first item keys: ['size', 'total_milliseconds_video', 'total_milliseconds_audio', 'fileid']
+      size: 51963012
+      total_milliseconds_video: 1415560
+      total_milliseconds_audio: 1415560
+      fileid: oss://yk-flv-sh/05000700006A55FEF3AF7811A67B828D7D7BBA-4C8C-470F-A707-4589C6F6D9D2.m3u8
+  streamLang: default
+  dolbyEffect: False
+  size: 51963012
+  subtitle_lang: default
+  media_type: standard
+  sourceAuidoEffect: False
+  transfer_mode_org: http
+  drm_type: copyrightDRM
+  stream_type: mp5sd
+  width: 640
+  h265: True
+  logo: none
+  dof: False
+  h266: False
+  offlineImax: False
+  m3u8_url: http://valipl10.cp31.ott.cibntv.net/697563785853E71CE8CEF5015/05000700006A55FEF3AF7811A67B828D7D7BBA-4C8C-470F-A707-4589C6F6D9D2.m3u8?ccode=03010203&duration=1415&expire=18000&psid=82c096e18960863cbd4a8fd479a364d341346&ups_client_netip=240ex390xf20x6150x1deex8a77xeb05x4236&ups_ts=1789005919&ups_userid=1572265536&utid=ZzscEQAAACkDAEWcLby4myp%2B&vid=XNTk3MzA5NzgzMg%3D%3D&vkey=Bd4a0b44a12820dc7ee047645292ef457&s=adaec02f09f9469ab8d8&iv=1&eo=0&t=aa836386749dd20&cug=1&fms=28f188e555f16a46&tr=1415&le=b2f0dcf02dda27972e3fd5c9b3a53186&ckt=5&m_onoff=0&rid=20000000F30F943F1B9310585BE9950DF1D7833802000000&type=mp5sdv3&bc=2&dre=u151&si=727&dst=1&sm=1&operate_type=1&hotvt=1&app_key=24679788&app_ver=9.5.2.1001
+  height: 360
+
+Stream 2:
+  keys: ['audio_lang', 'milliseconds_audio', 'milliseconds_video', 'encryptR_server', 'segs', 'streamLang', 'stream_ext', 'dolbyEffect', 'size', 'subtitle_lang', 'media_type', 'sourceAuidoEffect', 'transfer_mode_org', 'drm_type', 'stream_type', 'width', 'h265', 'logo', 'dof', 'h266', 'offlineImax', 'm3u8_url', 'height']
+  audio_lang: default
+  milliseconds_audio: 1415560
+  milliseconds_video: 1415560
+  encryptR_server: rIsBBcYjaN88Fnj00PlLGQ==
+  segs: [1 items]
+    first item keys: ['size', 'total_milliseconds_video', 'total_milliseconds_audio', 'fileid']
+      size: 390292512
+      total_milliseconds_video: 1415560
+      total_milliseconds_audio: 1415560
+      fileid: oss://yk-flv-sh/03000900006A55FEBDCE7148CD3187DEA5931E-58D4-4AFE-BE11-EC1394D34205.m3u8
+  streamLang: default
+  dolbyEffect: False
+  size: 390292512
+  subtitle_lang: default
+  media_type: standard
+  sourceAuidoEffect: False
+  transfer_mode_org: http
+  drm_type: copyrightDRM
+  stream_type: mp4hd3
+  width: 1920
+  h265: False
+  logo: none
+  dof: False
+  h266: False
+  offlineImax: False
+  m3u8_url: http://valipl10.cp31.ott.cibntv.net/677494D696E497221F6164457/03000900006A55FEBDCE7148CD3187DEA5931E-58D4-4AFE-BE11-EC1394D34205.m3u8?ccode=03010203&duration=1415&expire=18000&psid=82c096e18960863cbd4a8fd479a364d341346&ups_client_netip=240ex390xf20x6150x1deex8a77xeb05x4236&ups_ts=1789005919&ups_userid=1572265536&utid=ZzscEQAAACkDAEWcLby4myp%2B&vid=XNTk3MzA5NzgzMg%3D%3D&vkey=B5a052189daea189539fad0392a00b660&s=adaec02f09f9469ab8d8&iv=1&eo=0&t=aa836386749dd20&cug=1&fms=0ecbeb50a98ad0a7&tr=1415&le=8e14b9fe6f7e42aecb20b551636978ab&ckt=5&m_onoff=0&rid=2000000048F320B190D24EFA6F5F20AF18ECCE0302000000&type=mp4hd3v3&bc=2&dre=u151&si=727&dst=1&sm=1&operate_type=1&hotvt=1&app_key=24679788&app_ver=9.5.2.1001
+  height: 1080
+
+Stream 3:
+  keys: ['audio_lang', 'milliseconds_audio', 'milliseconds_video', 'encryptR_server', 'segs', 'streamLang', 'stream_ext', 'dolbyEffect', 'size', 'subtitle_lang', 'media_type', 'sourceAuidoEffect', 'transfer_mode_org', 'drm_type', 'stream_type', 'width', 'h265', 'logo', 'dof', 'h266', 'offlineImax', 'm3u8_url', 'height']
+  audio_lang: default
+  milliseconds_audio: 1415560
+  milliseconds_video: 1415560
+  encryptR_server: rIsBBcYjaN88Fnj00PlLGQ==
+  segs: [1 items]
+    first item keys: ['size', 'total_milliseconds_video', 'total_milliseconds_audio', 'fileid']
+      size: 281172048
+      total_milliseconds_video: 1415560
+      total_milliseconds_audio: 1415560
+      fileid: oss://yk-flv-sh/05000B00006A560587119CC020A3C7221CE067-F710-4EA7-9C34-B9C9239F65ED.m3u8
+  streamLang: default
+  dolbyEffect: False
+  size: 281172048
+  subtitle_lang: default
+  media_type: standard
+  sourceAuidoEffect: False
+  transfer_mode_org: http
+  drm_type: copyrightDRM
+  stream_type: mp5hd3
+  width: 1920
+  h265: True
+  logo: none
+  dof: False
+  h266: False
+  offlineImax: False
+  m3u8_url: http://valipl10.cp31.ott.cibntv.net/65728670BA54471FC0C1B25CA/05000B00006A560587119CC020A3C7221CE067-F710-4EA7-9C34-B9C9239F65ED.m3u8?ccode=03010203&duration=1415&expire=18000&psid=82c096e18960863cbd4a8fd479a364d341346&ups_client_netip=240ex390xf20x6150x1deex8a77xeb05x4236&ups_ts=1789005919&ups_userid=1572265536&utid=ZzscEQAAACkDAEWcLby4myp%2B&vid=XNTk3MzA5NzgzMg%3D%3D&vkey=B2abac6c4297601ce0e9362ee697e6a20&s=adaec02f09f9469ab8d8&iv=1&eo=0&t=aa836386749dd20&cug=1&fms=44fa264559309297&tr=1415&le=5a530083fcfc3e1ad71291da9e89be99&ckt=5&m_onoff=0&rid=200000000FB70479C30FC34F7C7DB9D960E7453802000000&type=mp5hd3v3&bc=2&dre=u151&si=727&dst=1&sm=1&operate_type=1&hotvt=1&app_key=24679788&app_ver=9.5.2.1001
+  height: 1080
+
+Stream 4:
+  keys: ['audio_lang', 'milliseconds_audio', 'milliseconds_video', 'encryptR_server', 'segs', 'streamLang', 'stream_ext', 'dolbyEffect', 'size', 'subtitle_lang', 'media_type', 'sourceAuidoEffect', 'transfer_mode_org', 'drm_type', 'stream_type', 'width', 'h265', 'logo', 'dof', 'h266', 'offlineImax', 'm3u8_url', 'height']
+  audio_lang: default
+  milliseconds_audio: 1415560
+  milliseconds_video: 1415560
+  encryptR_server: rIsBBcYjaN88Fnj00PlLGQ==
+  segs: [1 items]
+    first item keys: ['size', 'total_milliseconds_video', 'total_milliseconds_audio', 'fileid']
+      size: 521882172
+      total_milliseconds_video: 1415560
+      total_milliseconds_audio: 1415560
+      fileid: oss://yk-flv-sh/05000C00006A6931D9C4CDAC4AB865E336B182-729E-440A-914F-94FED91708AD.m3u8
+  streamLang: default
+  dolbyEffect: False
+  size: 521882172
+  subtitle_lang: default
+  media_type: standard
+  sourceAuidoEffect: False
+  transfer_mode_org: http
+  drm_type: copyrightDRM
+  stream_type: mp5hd4
+  width: 3840
+  h265: True
+  logo: none
+  dof: False
+  h266: False
+  offlineImax: False
+  m3u8_url: http://valipl10.cp31.ott.cibntv.net/6773801C97B3B71B7CD5922E4/05000C00006A6931D9C4CDAC4AB865E336B182-729E-440A-914F-94FED91708AD.m3u8?ccode=03010203&duration=1415&expire=18000&psid=82c096e18960863cbd4a8fd479a364d341346&ups_client_netip=240ex390xf20x6150x1deex8a77xeb05x4236&ups_ts=1789005919&ups_userid=1572265536&utid=ZzscEQAAACkDAEWcLby4myp%2B&vid=XNTk3MzA5NzgzMg%3D%3D&vkey=Bbf9082dc3c14087053c9f00bb3dff6e0&s=adaec02f09f9469ab8d8&iv=1&eo=0&t=aa836386749dd20&cug=1&fms=8cd0be7fe8c69a8f&tr=1415&le=1b6ede48146ecd18ab0116716a4e4017&ckt=5&m_onoff=0&rid=20000000395194287D45AF61A4596C8C6903000502000000&type=mp5hd4v3&bc=2&dre=u151&si=727&dst=1&sm=1&operate_type=1&hotvt=1&app_key=24679788&app_ver=9.5.2.1001
+  height: 2160
+
+Stream 5:
+  keys: ['audio_lang', 'milliseconds_audio', 'milliseconds_video', 'encryptR_server', 'segs', 'streamLang', 'stream_ext', 'dolbyEffect', 'size', 'subtitle_lang', 'media_type', 'sourceAuidoEffect', 'transfer_mode_org', 'drm_type', 'stream_type', 'width', 'h265', 'logo', 'dof', 'h266', 'offlineImax', 'm3u8_url', 'height']
+  audio_lang: default
+  milliseconds_audio: 1415560
+  milliseconds_video: 1415560
+  encryptR_server: rIsBBcYjaN88Fnj00PlLGQ==
+  segs: [1 items]
+    first item keys: ['size', 'total_milliseconds_video', 'total_milliseconds_audio', 'fileid']
+      size: 124398472
+      total_milliseconds_video: 1415560
+      total_milliseconds_audio: 1415560
+      fileid: oss://yk-flv-sh/03000600006A55FDDBBBFA53DA0981B023E3B2-558B-460B-8F1D-568F5BC19898.m3u8
+  streamLang: default
+  dolbyEffect: False
+  size: 124398472
+  subtitle_lang: default
+  media_type: standard
+  sourceAuidoEffect: False
+  transfer_mode_org: http
+  drm_type: copyrightDRM
+  stream_type: mp4hd
+  width: 864
+  h265: False
+  logo: none
+  dof: False
+  h266: False
+  offlineImax: False
+  m3u8_url: http://valipl10.cp31.ott.cibntv.net/6974A4288C73B71B7CD592359/03000600006A55FDDBBBFA53DA0981B023E3B2-558B-460B-8F1D-568F5BC19898.m3u8?ccode=03010203&duration=1415&expire=18000&psid=82c096e18960863cbd4a8fd479a364d341346&ups_client_netip=240ex390xf20x6150x1deex8a77xeb05x4236&ups_ts=1789005919&ups_userid=1572265536&utid=ZzscEQAAACkDAEWcLby4myp%2B&vid=XNTk3MzA5NzgzMg%3D%3D&vkey=Bf8a39509f9b34d89ef50322e6103da06&s=adaec02f09f9469ab8d8&iv=1&eo=0&t=aa836386749dd20&cug=1&fms=84dca62e7459980e&tr=1415&le=0790c30500a9f798d4387a6e6e413118&ckt=5&m_onoff=0&rid=200000004B105AC1DE6F81BA0095D8D4E61A995D02000000&type=mp4hdv3&bc=2&dre=u151&si=727&dst=1&sm=1&operate_type=1&hotvt=1&app_key=24679788&app_ver=9.5.2.1001
+  height: 486
+
+Stream 6:
+  keys: ['audio_lang', 'milliseconds_audio', 'milliseconds_video', 'encryptR_server', 'segs', 'streamLang', 'stream_ext', 'dolbyEffect', 'size', 'subtitle_lang', 'media_type', 'sourceAuidoEffect', 'transfer_mode_org', 'drm_type', 'stream_type', 'width', 'h265', 'logo', 'dof', 'h266', 'offlineImax', 'm3u8_url', 'height']
+  audio_lang: default
+  milliseconds_audio: 1415560
+  milliseconds_video: 1415560
+  encryptR_server: rIsBBcYjaN88Fnj00PlLGQ==
+  segs: [1 items]
+    first item keys: ['size', 'total_milliseconds_video', 'total_milliseconds_audio', 'fileid']
+      size: 81366776
+      total_milliseconds_video: 1415560
+      total_milliseconds_audio: 1415560
+      fileid: oss://yk-flv-sh/05000900006A55FF253EEF8647BAB1EB9C9223-7DB6-4E35-B385-8753D075AC87.m3u8
+  streamLang: default
+  dolbyEffect: False
+  size: 81366776
+  subtitle_lang: default
+  media_type: standard
+  sourceAuidoEffect: False
+  transfer_mode_org: http
+  drm_type: copyrightDRM
+  stream_type: mp5hd
+  width: 864
+  h265: True
+  logo: none
+  dof: False
+  h266: False
+  offlineImax: False
+  m3u8_url: http://valipl10.cp31.ott.cibntv.net/6572E3B4F9A4D72404ADE5DB7/05000900006A55FF253EEF8647BAB1EB9C9223-7DB6-4E35-B385-8753D075AC87.m3u8?ccode=03010203&duration=1415&expire=18000&psid=82c096e18960863cbd4a8fd479a364d341346&ups_client_netip=240ex390xf20x6150x1deex8a77xeb05x4236&ups_ts=1789005919&ups_userid=1572265536&utid=ZzscEQAAACkDAEWcLby4myp%2B&vid=XNTk3MzA5NzgzMg%3D%3D&vkey=B7b7cd21c4f7451824950917cb30ec817&s=adaec02f09f9469ab8d8&iv=1&eo=0&t=aa836386749dd20&cug=1&fms=365320b99fc052c1&tr=1415&le=34632c5a341523fec00fe31aeac6bdd1&ckt=5&m_onoff=0&rid=20000000F8F70321E6DD3022DB6FA802C08B02C402000000&type=mp5hdv3&bc=2&dre=u151&si=727&dst=1&sm=1&operate_type=1&hotvt=1&app_key=24679788&app_ver=9.5.2.1001
+  height: 486
+
+Stream 7:
+  keys: ['audio_lang', 'milliseconds_audio', 'milliseconds_video', 'encryptR_server', 'segs', 'streamLang', 'stream_ext', 'dolbyEffect', 'size', 'subtitle_lang', 'media_type', 'sourceAuidoEffect', 'transfer_mode_org', 'drm_type', 'stream_type', 'width', 'h265', 'logo', 'dof', 'h266', 'offlineImax', 'm3u8_url', 'height']
+  audio_lang: default
+  milliseconds_audio: 1415560
+  milliseconds_video: 1415560
+  encryptR_server: rIsBBcYjaN88Fnj00PlLGQ==
+  segs: [1 items]
+    first item keys: ['size', 'total_milliseconds_video', 'total_milliseconds_audio', 'fileid']
+      size: 143268220
+      total_milliseconds_video: 1415560
+      total_milliseconds_audio: 1415560
+      fileid: oss://yk-flv-sh/05000A00006A55FFEEE77D70EC442E54256F2F-776F-429F-B733-95FF5FF91822.m3u8
+  streamLang: default
+  dolbyEffect: False
+  size: 143268220
+  subtitle_lang: default
+  media_type: standard
+  sourceAuidoEffect: False
+  transfer_mode_org: http
+  drm_type: copyrightDRM
+  stream_type: mp5hd2
+  width: 1280
+  h265: True
+  logo: none
+  dof: False
+  h266: False
+  offlineImax: False
+  m3u8_url: http://valipl10.cp31.ott.cibntv.net/67746BA2A2C4E7247E01021A8/05000A00006A55FFEEE77D70EC442E54256F2F-776F-429F-B733-95FF5FF91822.m3u8?ccode=03010203&duration=1415&expire=18000&psid=82c096e18960863cbd4a8fd479a364d341346&ups_client_netip=240ex390xf20x6150x1deex8a77xeb05x4236&ups_ts=1789005919&ups_userid=1572265536&utid=ZzscEQAAACkDAEWcLby4myp%2B&vid=XNTk3MzA5NzgzMg%3D%3D&vkey=Bd4beed876d8950d430541a177e91936d&s=adaec02f09f9469ab8d8&iv=1&eo=0&t=aa836386749dd20&cug=1&fms=e3eaddff410cb113&tr=1415&le=c0a5b94b36825fac890181fdc9930fbd&ckt=5&m_onoff=0&rid=2000000028C276B80A859B9E7DC40BC0E5D1DB4302000000&type=mp5hd2v3&bc=2&dre=u151&si=727&dst=1&sm=1&operate_type=1&hotvt=1&app_key=24679788&app_ver=9.5.2.1001
+  height: 720
+
+Stream 8:
+  keys: ['audio_lang', 'milliseconds_audio', 'milliseconds_video', 'encryptR_server', 'segs', 'streamLang', 'stream_ext', 'dolbyEffect', 'size', 'subtitle_lang', 'media_type', 'sourceAuidoEffect', 'transfer_mode_org', 'drm_type', 'stream_type', 'width', 'h265', 'logo', 'dof', 'h266', 'offlineImax', 'm3u8_url', 'height']
+  audio_lang: default
+  milliseconds_audio: 1415560
+  milliseconds_video: 1415560
+  encryptR_server: rIsBBcYjaN88Fnj00PlLGQ==
+  segs: [1 items]
+    first item keys: ['size', 'total_milliseconds_video', 'total_milliseconds_audio', 'fileid']
+      size: 219217212
+      total_milliseconds_video: 1415560
+      total_milliseconds_audio: 1415560
+      fileid: oss://yk-flv-sh/03000700006A55FD9E061A40586B750CAB8746-5D17-4575-BC6B-45EAF44F38CA.m3u8
+  streamLang: default
+  dolbyEffect: False
+  size: 219217212
+  subtitle_lang: default
+  media_type: standard
+  sourceAuidoEffect: False
+  transfer_mode_org: http
+  drm_type: copyrightDRM
+  stream_type: mp4hd2
+  width: 1280
+  h265: False
+  logo: none
+  dof: False
+  h266: False
+  offlineImax: False
+  m3u8_url: http://valipl10.cp31.ott.cibntv.net/67748AF25534071DDB75339BC/03000700006A55FD9E061A40586B750CAB8746-5D17-4575-BC6B-45EAF44F38CA.m3u8?ccode=03010203&duration=1415&expire=18000&psid=82c096e18960863cbd4a8fd479a364d341346&ups_client_netip=240ex390xf20x6150x1deex8a77xeb05x4236&ups_ts=1789005919&ups_userid=1572265536&utid=ZzscEQAAACkDAEWcLby4myp%2B&vid=XNTk3MzA5NzgzMg%3D%3D&vkey=Be10c9c17df96aa71a4ffcd031fb8c326&s=adaec02f09f9469ab8d8&iv=1&eo=0&t=aa836386749dd20&cug=1&fms=b995de6def385897&tr=1415&le=6e54ab140f6645fb742a55d08f09969f&ckt=5&m_onoff=0&rid=20000000F93A136FC5D1928470C434EA56D8C21F02000000&type=mp4hd2v3&bc=2&dre=u151&si=727&dst=1&sm=1&operate_type=1&hotvt=1&app_key=24679788&app_ver=9.5.2.1001
+  height: 720
